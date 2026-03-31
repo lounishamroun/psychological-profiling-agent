@@ -14,6 +14,7 @@ from src.prompts import (
     SUSPECT_PROMPT,
     PROFILER_PROMPT,
     FINAL_REPORT_PROMPT,
+    JUDGE_PROMPT,
 )
 from src.state import InterrogationState
 
@@ -90,3 +91,17 @@ def final_report_agent(state: InterrogationState) -> dict:
     report = call_llm(prompt).strip()
 
     return {"final_report": report}
+
+
+@observe(name="judge_agent")
+def judge_agent(state: InterrogationState) -> dict:
+    """Evaluate the entire simulation quality (called after the graph finishes)."""
+    prompt = JUDGE_PROMPT.format(
+        case_data=json.dumps(state["case_data"], indent=2),
+        suspect_profile=json.dumps(state["suspect_profile"], indent=2),
+        conversation_history=format_conversation(state.get("conversation_history", [])),
+        all_profiler_outputs=json.dumps(state.get("profiler_history", []), indent=2),
+        final_report=state.get("final_report", ""),
+    )
+    raw = call_llm(prompt)
+    return parse_json_response(raw)
