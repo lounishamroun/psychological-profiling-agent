@@ -128,6 +128,41 @@ python -m src.data_prep transform
 - **No RAG for Suspect** — A real suspect doesn't know the interrogator's playbook.
 - **Temperature control** — Low for Profiler (deterministic analysis), high for Suspect (unpredictable behavior).
 
+## Testing
+
+Tests use **pytest** with **pytest-cov** for coverage. All LLM calls are mocked — no API key required.
+
+```bash
+# Run all tests with coverage
+pytest
+
+# Run a specific test file
+pytest tests/test_utils.py -v
+
+# Run with HTML coverage report
+pytest --cov-report=html
+```
+
+**Test structure:**
+
+| File | What it tests |
+|------|--------------|
+| `test_utils.py` | JSON parsing (7 edge cases), `format_conversation`, `load_json`, `call_llm` mock, comparison mode |
+| `test_agents.py` | All 5 agents return correct state keys, prompt content, malformed output handling |
+| `test_graph.py` | `_should_continue` logic (5 cases), graph compilation, node wiring |
+| `test_prompts.py` | Placeholder presence, `.format()` success, rubric keywords |
+| `test_state.py` | Required fields, `operator.add` on append fields, plain list on overwrite fields |
+
+**Coverage (43 tests):**
+
+```
+src/agents.py      100%
+src/prompts.py     100%
+src/state.py       100%
+src/utils.py        84%
+src/graph.py        51%
+```
+
 ## License
 
 MIT
