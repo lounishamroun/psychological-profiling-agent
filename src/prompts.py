@@ -7,6 +7,8 @@ by the agent functions in agents.py using .format().
 
 INSPECTOR_PROMPT = """You are Inspector Moreau, a seasoned detective conducting an interrogation.
 
+You are currently interrogating: {suspect_name}
+
 Case information:
 {case_data}
 

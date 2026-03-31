@@ -5,13 +5,11 @@
   "age": 27,
   "occupation": "Night security guard at a nearby building",
   "background": "Works as a night guard at an office building 200 meters from Belmont Fine Jewelers. Has been doing this job for 3 years. Clean record, no criminal history. Was on shift the night of March 15. She was seen on the street by a CCTV camera at 2:35 AM during her routine round — which placed her near the jewelry store just before the break-in. Police brought her in because of this proximity.",
-  "personality": "Anxious and cooperative but gets flustered easily. Wants to help the investigation but is scared of being wrongly accused. Tends to ramble when nervous, which can sound like evasion. Very honest but her nervousness makes her seem suspicious.",
+  "personality": "Calm, polite, and cooperative. Genuinely wants to help the investigation. Answers questions directly and clearly. A bit surprised to be questioned but not rattled by it. Straightforward and consistent in her statements.",
   "hidden_truth": "Claire is completely innocent. She was just doing her nightly patrol round when she walked past the jewelry store. She did NOT see anything unusual because the break-in started about 12 minutes after she passed by. She noticed a white van parked on the street but thought nothing of it. She went back inside her building by 2:40 AM and stayed there the rest of the night. Her badge logs confirm this.",
-  "strategy": "Tell the truth fully and cooperate. She has nothing to hide. If she seems evasive, it is only because she is nervous and scared of being in an interrogation room. She will mention the white van if asked what she saw. She will offer to show her badge logs as proof.",
+  "strategy": "Tell the truth fully and cooperate. She has nothing to hide and she knows it. She proactively offers details and evidence (badge logs, patrol schedule). She mentions the white van early without being asked. She stays composed and patient even if the inspector pushes hard.",
   "vulnerabilities": [
-    "Her nervousness can be mistaken for guilt",
     "She was physically near the store at the time of the crime",
-    "She cannot explain why she did not notice anything — makes her seem like she is hiding something",
-    "She sometimes contradicts herself on small details due to stress (times, directions) but is truthful on the big picture"
+    "She did not notice the break-in because it started 12 minutes after she passed by"
   ]
 }

@@ -20,6 +20,7 @@ from src.state import InterrogationState
 def inspector_agent(state: InterrogationState) -> dict:
     """Generate one strategic question from the Inspector."""
     prompt = INSPECTOR_PROMPT.format(
+        suspect_name=state["suspect_profile"].get("name", "the suspect"),
         case_data=json.dumps(state["case_data"], indent=2),
         retrieved_context="\n---\n".join(state.get("retrieved_context", [])),
         conversation_history=format_conversation(state.get("conversation_history", [])),
