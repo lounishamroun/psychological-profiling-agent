@@ -1,3 +1,5 @@
+You can find the app here => https://psychological-profiling-agent-buerteruwp8dakoheqbt8a.streamlit.app/
+
 # ARIA — Adaptive Retrieval-Augmented Interrogation Agent
 
 A multi-agent AI interrogation simulator with RAG-enhanced tactical reasoning and dynamic psychological profiling.
