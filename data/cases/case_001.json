@@ -4,7 +4,7 @@
   "summary": "During the night of June 18, 2025, Synapse Telecom detected an unauthorized extraction of sensitive internal data from its Paris operations center. Around 86,000 customer records were exported, including identity details, contact data, SIM replacement history, and internal escalation notes for high-value clients. The intrusion used valid credentials, a maintenance workstation on the technical floor, and an encrypted outbound transfer that blended into normal overnight traffic. Three suspects were brought in for questioning: Martin Lefevre, a former customer data analyst recently dismissed by Synapse; Antonin Morel, a field network subcontractor with after-hours technical access; and Claire Music, the night security guard on duty in the building during the incident.",
   "suspects": ["Martin Lefevre", "Antonin Morel", "Claire Music"],
   "key_facts": [
-    "Unauthorized access to Synapse Telecom systems occurred between 02:13 and 03:01 on June 18, 2025",
+    "Unauthorized access to Synapse systems (Software platform of the school Telecom Paris) occurred between 02:13 and 03:01 on June 18, 2025",
     "Approximately 86,000 customer records were exported from the CRM and SIM lifecycle tools",
     "The stolen dataset included names, addresses, phone numbers, partial billing details, SIM swap history, and internal VIP escalation notes",
     "The intrusion used valid credentials tied to a legacy service account that should have been disabled",

@@ -29,7 +29,7 @@ def inspector_agent(state: InterrogationState) -> dict:
         conversation_history=format_conversation(state.get("conversation_history", [])),
         profiler_output=json.dumps(state.get("profiler_output", {}), indent=2),
     )
-    question = call_llm(prompt).strip()
+    question = call_llm(prompt, temperature=0.7).strip()
 
     # Return state updates:
     # - last_question: overwritten (for the suspect to see)
@@ -50,7 +50,7 @@ def suspect_agent(state: InterrogationState) -> dict:
         conversation_history=format_conversation(state.get("conversation_history", [])),
         last_question=state["last_question"],
     )
-    answer = call_llm(prompt).strip()
+    answer = call_llm(prompt, temperature=1.0).strip()
 
     return {
         "last_answer": answer,
@@ -70,7 +70,7 @@ def profiler_agent(state: InterrogationState) -> dict:
         last_answer=state["last_answer"],
         profiler_context=profiler_context_str,
     )
-    raw = call_llm(prompt)
+    raw = call_llm(prompt, temperature=0.2)
     profiler_output = parse_json_response(raw)
 
     return {
@@ -88,7 +88,7 @@ def final_report_agent(state: InterrogationState) -> dict:
         conversation_history=format_conversation(state.get("conversation_history", [])),
         all_profiler_outputs=json.dumps(state.get("profiler_history", []), indent=2),
     )
-    report = call_llm(prompt).strip()
+    report = call_llm(prompt, temperature=0.3).strip()
 
     return {"final_report": report}
 
@@ -103,5 +103,5 @@ def judge_agent(state: InterrogationState) -> dict:
         all_profiler_outputs=json.dumps(state.get("profiler_history", []), indent=2),
         final_report=state.get("final_report", ""),
     )
-    raw = call_llm(prompt)
+    raw = call_llm(prompt, temperature=0.0)
     return parse_json_response(raw)

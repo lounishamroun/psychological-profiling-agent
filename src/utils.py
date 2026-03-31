@@ -22,6 +22,9 @@ load_dotenv()
 _model = None
 DEFAULT_GEMINI_MODEL = "gemini-2.5-flash"
 
+# When True, all agents use temperature=0 for reproducible A/B comparison
+comparison_mode = False
+
 
 def get_model():
     """Initialize the Gemini model (once) and return it."""
@@ -40,26 +43,38 @@ def get_model():
 
 
 @observe(as_type="generation")
-def call_llm(prompt: str) -> str:
+def call_llm(prompt: str, temperature: float = 1.0) -> str:
     """Send a prompt to Gemini and return the text response.
 
     This is the ONLY function that talks to the LLM.
     All agents call this — so if you ever want to swap to a different
     model (OpenAI, Claude, Ollama...), you only change this function.
 
+    Args:
+        prompt: The prompt to send.
+        temperature: Controls randomness (0.0 = deterministic, 2.0 = max creative).
+
     Langfuse traces this as a 'generation' (LLM call).
     """
     model = get_model()
     model_name = os.getenv("GEMINI_MODEL", DEFAULT_GEMINI_MODEL)
+
+    # Force temperature=0 in comparison mode for reproducible results
+    if comparison_mode:
+        temperature = 0.0
 
     # Tell Langfuse which model was used and what the input was
     langfuse = Langfuse()
     langfuse.update_current_generation(
         model=model_name,
         input=prompt,
+        model_parameters={"temperature": temperature},
     )
 
-    response = model.generate_content(prompt)
+    response = model.generate_content(
+        prompt,
+        generation_config={"temperature": temperature},
+    )
     text = response.text
 
     langfuse.update_current_generation(output=text)

@@ -1,11 +1,5 @@
 """
 Streamlit app for the interrogation simulator.
-
-Person C scope:
-- present the interrogation transcript,
-- show profiler metrics and charts,
-- display retrieved context and final report,
-- integrate with LangGraph/RAG when those modules are available.
 """
 
 from __future__ import annotations
@@ -444,6 +438,11 @@ def main() -> None:
             key="use_rag",
             help="Toggle retrieval-augmented generation on/off to compare results.",
         )
+        comparison = st.toggle(
+            "Comparison mode (temp=0)",
+            key="comparison_mode",
+            help="Forces all agents to temperature=0 for deterministic, reproducible A/B comparison.",
+        )
         run_clicked = st.button("Run interrogation", type="primary", use_container_width=True)
         reset_clicked = st.button("Reset", use_container_width=True)
         st.caption("The selected suspect and RAG mode are applied on the next run or reset.")
@@ -456,6 +455,10 @@ def main() -> None:
         st.session_state.backend_name = "Not run yet"
 
     if run_clicked:
+        # Set comparison mode before running so call_llm sees it
+        from src import utils as _utils_module
+        _utils_module.comparison_mode = comparison
+
         with st.spinner("Running interrogation..."):
             try:
                 state, backend_name = run_interrogation(
