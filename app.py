@@ -15,7 +15,6 @@ from pathlib import Path
 import importlib
 from typing import Any, Callable
 
-import pandas as pd
 import streamlit as st
 
 from src.agents import final_report_agent, inspector_agent, profiler_agent, suspect_agent
@@ -24,9 +23,6 @@ from src.utils import load_json
 BASE_DIR = Path(__file__).resolve().parent
 CASE_PATH = BASE_DIR / "data" / "cases" / "case_001.json"
 SUSPECT_PATH = BASE_DIR / "data" / "suspects" / "suspect_001.json"
-
-ChartData = pd.DataFrame
-
 
 def configure_page() -> None:
     """Set page metadata and inject a small visual system."""
@@ -137,13 +133,15 @@ def load_backend_functions() -> tuple[Callable[..., Any] | None, Callable[..., A
 def run_with_langgraph(max_turns: int) -> tuple[dict[str, Any], str]:
     """Run the interrogation through the official graph if it is available."""
     build_graph, build_index = load_backend_functions()
-    if not callable(build_graph) or not callable(build_index):
-        raise RuntimeError("LangGraph or RAG backend not available yet.")
+    if not callable(build_graph):
+        raise RuntimeError("LangGraph backend not available yet.")
 
-    rag_collection = build_index()
+    rag_collection = build_index() if callable(build_index) else None
     graph = build_graph(rag_collection)
     initial_state = build_initial_state(max_turns)
     result = graph.invoke(initial_state)
+    if rag_collection is None:
+        return result, "LangGraph (no RAG yet)"
     return result, "LangGraph + RAG"
 
 
@@ -169,9 +167,9 @@ def run_interrogation(max_turns: int) -> tuple[dict[str, Any], str]:
         return run_with_local_fallback(max_turns)
 
 
-def history_to_dataframe(profiler_history: list[dict[str, Any]]) -> ChartData:
-    """Convert profiler history into a chart-friendly dataframe."""
-    rows = []
+def history_to_chart_rows(profiler_history: list[dict[str, Any]]) -> list[dict[str, float]]:
+    """Convert profiler history into chart-friendly rows."""
+    rows: list[dict[str, float]] = []
     for index, entry in enumerate(profiler_history, start=1):
         rows.append(
             {
@@ -182,7 +180,7 @@ def history_to_dataframe(profiler_history: list[dict[str, Any]]) -> ChartData:
                 "suspicion_score": float(entry.get("suspicion_score", 0.0)),
             }
         )
-    return pd.DataFrame(rows)
+    return rows
 
 
 def render_message(role: str, content: str) -> None:
@@ -216,11 +214,11 @@ def render_sidebar(state: dict[str, Any], backend_name: str) -> None:
 
         profiler_history = state.get("profiler_history", [])
         if profiler_history:
-            chart_df = history_to_dataframe(profiler_history)
+            chart_rows = history_to_chart_rows(profiler_history)
             st.subheader("Suspicion Over Time")
-            st.line_chart(chart_df, x="turn", y="suspicion_score", height=180)
+            st.line_chart(chart_rows, x="turn", y="suspicion_score", height=180)
             st.subheader("Stress Over Time")
-            st.line_chart(chart_df, x="turn", y="stress_level", height=180)
+            st.line_chart(chart_rows, x="turn", y="stress_level", height=180)
         else:
             st.info("Run the simulation to populate live metrics.")
 
