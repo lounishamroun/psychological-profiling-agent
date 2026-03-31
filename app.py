@@ -225,24 +225,28 @@ def load_backend_functions() -> tuple[Callable[..., Any] | None, Callable[..., A
 def run_with_langgraph(
     max_turns: int,
     suspect_path: Path | None = None,
+    use_rag: bool = True,
 ) -> tuple[dict[str, Any], str]:
     """Run the interrogation through the official graph if it is available."""
     build_graph, build_index = load_backend_functions()
     if not callable(build_graph):
         raise RuntimeError("LangGraph backend not available yet.")
 
-    rag_collection = build_index() if callable(build_index) else None
+    rag_collection = build_index() if use_rag and callable(build_index) else None
     graph = build_graph(rag_collection)
     initial_state = build_initial_state(max_turns, suspect_path=suspect_path)
     result = graph.invoke(initial_state)
+    if not use_rag:
+        return result, "LangGraph (RAG disabled)"
     if rag_collection is None:
-        return result, "LangGraph (no RAG yet)"
+        return result, "LangGraph (no RAG available)"
     return result, "LangGraph + RAG"
 
 
 def run_with_local_fallback(
     max_turns: int,
     suspect_path: Path | None = None,
+    use_rag: bool = True,
 ) -> tuple[dict[str, Any], str]:
     """Run a simple sequential loop so the UI stays usable before full integration."""
     state = build_initial_state(max_turns, suspect_path=suspect_path)
@@ -255,18 +259,21 @@ def run_with_local_fallback(
         state = merge_agent_updates(state, profiler_agent(state))
 
     state = merge_agent_updates(state, final_report_agent(state))
-    return state, "Sequential fallback"
+    if use_rag:
+        return state, "Sequential fallback (RAG unavailable)"
+    return state, "Sequential fallback (RAG disabled)"
 
 
 def run_interrogation(
     max_turns: int,
     suspect_path: Path | None = None,
+    use_rag: bool = True,
 ) -> tuple[dict[str, Any], str]:
     """Prefer the shared graph, otherwise fall back to a simple local execution mode."""
     try:
-        return run_with_langgraph(max_turns, suspect_path=suspect_path)
+        return run_with_langgraph(max_turns, suspect_path=suspect_path, use_rag=use_rag)
     except Exception:
-        return run_with_local_fallback(max_turns, suspect_path=suspect_path)
+        return run_with_local_fallback(max_turns, suspect_path=suspect_path, use_rag=use_rag)
 
 
 def history_to_chart_rows(profiler_history: list[dict[str, Any]]) -> list[dict[str, float]]:
@@ -396,6 +403,8 @@ def initialize_session(suspect_options: dict[str, dict[str, Any]]) -> None:
         )
     if "backend_name" not in st.session_state:
         st.session_state.backend_name = "Not run yet"
+    if "use_rag" not in st.session_state:
+        st.session_state.use_rag = True
 
 
 def main() -> None:
@@ -422,10 +431,15 @@ def main() -> None:
             format_func=lambda suspect_key: suspect_options[suspect_key]["label"],
             key="selected_suspect_path",
         )
+        use_rag = st.checkbox(
+            "Enable RAG context",
+            value=st.session_state.use_rag,
+            key="use_rag",
+        )
         max_turns = st.slider("Number of turns", min_value=1, max_value=8, value=5)
         run_clicked = st.button("Run interrogation", type="primary", use_container_width=True)
         reset_clicked = st.button("Reset", use_container_width=True)
-        st.caption("The selected suspect is applied on the next run or reset.")
+        st.caption("The selected suspect and RAG mode are applied on the next run or reset.")
 
     if reset_clicked:
         st.session_state.simulation_state = build_initial_state(
@@ -440,6 +454,7 @@ def main() -> None:
                 state, backend_name = run_interrogation(
                     max_turns=max_turns,
                     suspect_path=Path(selected_suspect_path),
+                    use_rag=use_rag,
                 )
             except Exception as exc:
                 st.error(f"Simulation failed: {exc}")
