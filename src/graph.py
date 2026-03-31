@@ -34,14 +34,13 @@ def _make_retrieve_node(rag_collection):
             query_parts.append(state["case_data"].get("summary", "interrogation"))
 
         query = " ".join(query_parts)
+        profiler_query = state.get("last_answer", "") or query
 
         # Try to get docs from RAG, skip if no collection is set up yet
         if rag_collection is not None:
             try:
                 from src.rag import retrieve, retrieve_behavioral_examples
                 docs = retrieve(rag_collection, query, k=3)
-                # Get behavioral examples for the profiler based on suspect's last answer
-                profiler_query = state.get("last_answer", "") or query
                 profiler_docs = retrieve_behavioral_examples(rag_collection, profiler_query, k=3)
             except Exception:
                 docs = []
@@ -50,7 +49,21 @@ def _make_retrieve_node(rag_collection):
             docs = []
             profiler_docs = []
 
-        return {"retrieved_context": docs, "profiler_context": profiler_docs}
+        rag_snapshot = []
+        if rag_collection is not None:
+            rag_snapshot = [{
+                "turn": state.get("turn", 0) + 1,
+                "query": query,
+                "profiler_query": profiler_query,
+                "retrieved_context": docs,
+                "profiler_context": profiler_docs,
+            }]
+
+        return {
+            "retrieved_context": docs,
+            "profiler_context": profiler_docs,
+            "rag_history": rag_snapshot,
+        }
 
     return retrieve_context
 

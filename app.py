@@ -180,6 +180,7 @@ def build_initial_state(max_turns: int, suspect_path: Path | None = None) -> dic
         "conversation_history": [],
         "retrieved_context": [],
         "profiler_context": [],
+        "rag_history": [],
         "last_question": "",
         "last_answer": "",
         "profiler_output": {},
@@ -194,7 +195,7 @@ def merge_agent_updates(state: dict[str, Any], updates: dict[str, Any]) -> dict[
     """Reproduce LangGraph's list-append behavior in the local fallback runner."""
     merged = dict(state)
     for key, value in updates.items():
-        if key in {"conversation_history", "profiler_history"}:
+        if key in {"conversation_history", "profiler_history", "rag_history"}:
             existing = list(merged.get(key, []))
             existing.extend(value)
             merged[key] = existing
@@ -299,6 +300,94 @@ def history_to_chart_rows(profiler_history: list[dict[str, Any]]) -> list[dict[s
     return rows
 
 
+def shorten_text(text: Any, max_chars: int = 220) -> str:
+    """Collapse whitespace and trim long UI strings."""
+    collapsed = " ".join(str(text).split())
+    if len(collapsed) <= max_chars:
+        return collapsed
+    return f"{collapsed[: max_chars - 3].rstrip(' ,;:')}..."
+
+
+def summarize_rag_chunk(chunk: Any, context_type: str) -> str:
+    """Turn raw RAG chunks into short, readable highlights."""
+    raw_text = str(chunk).strip()
+    if not raw_text:
+        return ""
+
+    if context_type == "profiler_context":
+        fields: dict[str, str] = {}
+        for part in raw_text.split("|"):
+            if ":" not in part:
+                continue
+            key, value = part.split(":", 1)
+            fields[key.strip().lower()] = value.strip()
+
+        tactic = fields.get("tactique")
+        question = fields.get("question")
+        answer = fields.get("reponse") or fields.get("réponse") or fields.get("response")
+
+        pieces = []
+        if tactic and tactic != "N/A":
+            pieces.append(f"Tactic: {tactic}")
+        if question:
+            pieces.append(f"Question pattern: {question}")
+        if answer:
+            pieces.append(f"Response pattern: {answer}")
+        if pieces:
+            return shorten_text(" | ".join(pieces))
+
+    lines = [line.strip() for line in raw_text.splitlines() if line.strip()]
+    if lines:
+        candidate = lines[0]
+        if len(candidate) < 90 and len(lines) > 1:
+            candidate = f"{candidate} {lines[1]}"
+        return shorten_text(candidate)
+
+    return shorten_text(raw_text)
+
+
+def collect_rag_highlights(rag_history: list[dict[str, Any]]) -> dict[str, list[str]]:
+    """Extract the main RAG points used across the run for the UI."""
+    grouped = {
+        "Questioning guidance": [],
+        "Behavioral comparisons": [],
+    }
+    limits = {
+        "Questioning guidance": 3,
+        "Behavioral comparisons": 3,
+    }
+    seen: set[str] = set()
+
+    for entry in rag_history:
+        for chunk in entry.get("retrieved_context", []):
+            summary = summarize_rag_chunk(chunk, "retrieved_context")
+            summary_key = summary.lower()
+            if not summary or summary_key in seen:
+                continue
+            if len(grouped["Questioning guidance"]) < limits["Questioning guidance"]:
+                grouped["Questioning guidance"].append(summary)
+                seen.add(summary_key)
+
+        for chunk in entry.get("profiler_context", []):
+            summary = summarize_rag_chunk(chunk, "profiler_context")
+            summary_key = summary.lower()
+            if not summary or summary_key in seen:
+                continue
+            if len(grouped["Behavioral comparisons"]) < limits["Behavioral comparisons"]:
+                grouped["Behavioral comparisons"].append(summary)
+                seen.add(summary_key)
+
+        if all(len(grouped[group]) >= limits[group] for group in grouped):
+            break
+
+    return grouped
+
+
+def rag_was_used(state: dict[str, Any], backend_name: str) -> bool:
+    """Return True when the finished run actually used RAG."""
+    return backend_name == "LangGraph + RAG" and bool(state.get("rag_history"))
+
+
 def render_message(role: str, content: str) -> None:
     """Render one transcript message with a role-specific card."""
     css_role = "inspector" if role == "inspector" else "suspect"
@@ -396,6 +485,36 @@ def render_final_report(state: dict[str, Any]) -> None:
         st.info("The final report will appear here after the simulation completes.")
 
 
+def render_rag_support(state: dict[str, Any]) -> None:
+    """Render the main retrieved RAG points that informed the run."""
+    rag_history = state.get("rag_history", [])
+    highlights = collect_rag_highlights(rag_history)
+    latest_entry = rag_history[-1] if rag_history else {}
+
+    st.subheader("RAG Support")
+    st.caption("Key retrieved points that supported the questioning and truthfulness assessment.")
+
+    if not rag_history:
+        st.info("No RAG support was captured for this run.")
+        return
+
+    any_highlight = False
+    for heading, items in highlights.items():
+        if not items:
+            continue
+        any_highlight = True
+        st.markdown(f"**{heading}**")
+        for item in items:
+            st.markdown(f"- {item}")
+
+    if not any_highlight:
+        st.info("RAG was enabled, but no readable supporting points were retained.")
+
+    with st.expander("Queries used for retrieval", expanded=False):
+        st.write(f"Inspector query: {latest_entry.get('query', 'N/A')}")
+        st.write(f"Profiler query: {latest_entry.get('profiler_query', 'N/A')}")
+
+
 def initialize_session(suspect_options: dict[str, dict[str, Any]]) -> None:
     """Ensure required session keys exist."""
     default_suspect_path = next(iter(suspect_options))
@@ -483,7 +602,14 @@ def main() -> None:
     with transcript_col:
         render_transcript(state)
     with report_col:
-        render_final_report(state)
+        if rag_was_used(state, backend_name):
+            final_report_col, rag_support_col = st.columns([1.2, 1.0], gap="medium")
+            with final_report_col:
+                render_final_report(state)
+            with rag_support_col:
+                render_rag_support(state)
+        else:
+            render_final_report(state)
 
 
 if __name__ == "__main__":
