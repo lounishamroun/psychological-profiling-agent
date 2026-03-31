@@ -16,6 +16,7 @@ import importlib
 from typing import Any, Callable
 
 import streamlit as st
+from langfuse import observe, Langfuse
 
 from src.agents import final_report_agent, inspector_agent, profiler_agent, suspect_agent
 from src.utils import load_json
@@ -222,27 +223,31 @@ def load_backend_functions() -> tuple[Callable[..., Any] | None, Callable[..., A
     return build_graph, build_index
 
 
+@observe(name="run_with_langgraph")
 def run_with_langgraph(
     max_turns: int,
     suspect_path: Path | None = None,
+    use_rag: bool = True,
 ) -> tuple[dict[str, Any], str]:
     """Run the interrogation through the official graph if it is available."""
     build_graph, build_index = load_backend_functions()
     if not callable(build_graph):
         raise RuntimeError("LangGraph backend not available yet.")
 
-    rag_collection = build_index() if callable(build_index) else None
+    rag_collection = build_index() if (callable(build_index) and use_rag) else None
     graph = build_graph(rag_collection)
     initial_state = build_initial_state(max_turns, suspect_path=suspect_path)
     result = graph.invoke(initial_state)
     if rag_collection is None:
-        return result, "LangGraph (no RAG yet)"
+        return result, "LangGraph (RAG OFF)"
     return result, "LangGraph + RAG"
 
 
+@observe(name="run_with_local_fallback")
 def run_with_local_fallback(
     max_turns: int,
     suspect_path: Path | None = None,
+    use_rag: bool = True,
 ) -> tuple[dict[str, Any], str]:
     """Run a simple sequential loop so the UI stays usable before full integration."""
     state = build_initial_state(max_turns, suspect_path=suspect_path)
@@ -258,15 +263,20 @@ def run_with_local_fallback(
     return state, "Sequential fallback"
 
 
+@observe(name="interrogation_session")
 def run_interrogation(
     max_turns: int,
     suspect_path: Path | None = None,
+    use_rag: bool = True,
 ) -> tuple[dict[str, Any], str]:
-    """Prefer the shared graph, otherwise fall back to a simple local execution mode."""
+    """Prefer the shared graph, otherwise fall back to a simple local execution mode.
+
+    Langfuse traces this as the top-level trace for the entire interrogation.
+    """
     try:
-        return run_with_langgraph(max_turns, suspect_path=suspect_path)
+        return run_with_langgraph(max_turns, suspect_path=suspect_path, use_rag=use_rag)
     except Exception:
-        return run_with_local_fallback(max_turns, suspect_path=suspect_path)
+        return run_with_local_fallback(max_turns, suspect_path=suspect_path, use_rag=use_rag)
 
 
 def history_to_chart_rows(profiler_history: list[dict[str, Any]]) -> list[dict[str, float]]:
@@ -423,6 +433,7 @@ def main() -> None:
             key="selected_suspect_path",
         )
         max_turns = st.slider("Number of turns", min_value=1, max_value=8, value=5)
+        use_rag = st.toggle("RAG enabled", value=True, help="Toggle retrieval-augmented generation on/off to compare results")
         run_clicked = st.button("Run interrogation", type="primary", use_container_width=True)
         reset_clicked = st.button("Reset", use_container_width=True)
         st.caption("The selected suspect is applied on the next run or reset.")
@@ -440,12 +451,19 @@ def main() -> None:
                 state, backend_name = run_interrogation(
                     max_turns=max_turns,
                     suspect_path=Path(selected_suspect_path),
+                    use_rag=use_rag,
                 )
             except Exception as exc:
                 st.error(f"Simulation failed: {exc}")
             else:
                 st.session_state.simulation_state = state
                 st.session_state.backend_name = backend_name
+            finally:
+                # Flush Langfuse so all traces are sent before the page rerenders
+                try:
+                    Langfuse().flush()
+                except Exception:
+                    pass
 
     state = st.session_state.simulation_state
     backend_name = st.session_state.backend_name

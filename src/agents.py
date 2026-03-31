@@ -7,6 +7,7 @@ updates back into the state.
 """
 
 import json
+from langfuse import observe
 from src.utils import call_llm, parse_json_response, format_conversation
 from src.prompts import (
     INSPECTOR_PROMPT,
@@ -17,6 +18,7 @@ from src.prompts import (
 from src.state import InterrogationState
 
 
+@observe(name="inspector_agent")
 def inspector_agent(state: InterrogationState) -> dict:
     """Generate one strategic question from the Inspector."""
     prompt = INSPECTOR_PROMPT.format(
@@ -37,6 +39,7 @@ def inspector_agent(state: InterrogationState) -> dict:
     }
 
 
+@observe(name="suspect_agent")
 def suspect_agent(state: InterrogationState) -> dict:
     """Generate an in-character answer from the Suspect."""
     prompt = SUSPECT_PROMPT.format(
@@ -54,6 +57,7 @@ def suspect_agent(state: InterrogationState) -> dict:
     }
 
 
+@observe(name="profiler_agent")
 def profiler_agent(state: InterrogationState) -> dict:
     """Analyze the suspect's answer and return structured metrics."""
     profiler_ctx = state.get("profiler_context", [])
@@ -75,6 +79,7 @@ def profiler_agent(state: InterrogationState) -> dict:
     }
 
 
+@observe(name="final_report_agent")
 def final_report_agent(state: InterrogationState) -> dict:
     """Generate the final interrogation assessment report."""
     prompt = FINAL_REPORT_PROMPT.format(

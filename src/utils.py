@@ -13,6 +13,7 @@ import json
 import re
 from dotenv import load_dotenv
 import google.generativeai as genai
+from langfuse import observe, Langfuse
 
 # Load .env file so we can read GOOGLE_API_KEY
 load_dotenv()
@@ -38,16 +39,31 @@ def get_model():
     return _model
 
 
+@observe(as_type="generation")
 def call_llm(prompt: str) -> str:
     """Send a prompt to Gemini and return the text response.
 
     This is the ONLY function that talks to the LLM.
     All agents call this — so if you ever want to swap to a different
     model (OpenAI, Claude, Ollama...), you only change this function.
+
+    Langfuse traces this as a 'generation' (LLM call).
     """
     model = get_model()
+    model_name = os.getenv("GEMINI_MODEL", DEFAULT_GEMINI_MODEL)
+
+    # Tell Langfuse which model was used and what the input was
+    langfuse = Langfuse()
+    langfuse.update_current_generation(
+        model=model_name,
+        input=prompt,
+    )
+
     response = model.generate_content(prompt)
-    return response.text
+    text = response.text
+
+    langfuse.update_current_generation(output=text)
+    return text
 
 
 def load_json(path: str) -> dict:
