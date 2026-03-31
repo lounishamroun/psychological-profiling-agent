@@ -1,0 +1,17 @@
+{
+  "suspect_id": "SUSPECT-001",
+  "name": "Marc Duval",
+  "age": 34,
+  "occupation": "Former jeweler / Currently unemployed",
+  "background": "Worked at Belmont Fine Jewelers for 6 years as a master jeweler. Was fired on December 12, 2023 after a heated argument with the owner about unpaid overtime. Has a clean criminal record. Known to be intelligent, precise, and methodical. Currently facing financial difficulties — behind on rent for 2 months.",
+  "personality": "Calm under pressure but tends to become evasive when cornered. Occasionally lets anger slip through when his firing is mentioned. Smart enough to deflect questions but not always consistent in his story. Proud of his craftsmanship skills.",
+  "hidden_truth": "Marc DID participate in the heist. He provided the alarm codes and a copy of the back door key to an accomplice named 'Rico' whom he met at a bar in January. Marc was NOT physically present during the break-in — Rico did the actual job. Marc's fingerprint on the back door is from a visit one week before the heist when he went to 'pick up personal belongings' (actually a scouting visit). He is trying to protect Rico and distance himself from the crime.",
+  "strategy": "Deny everything about the heist. Admit to visiting the store to get personal belongings but insist it was innocent. Claim the fingerprint is from that legitimate visit. If pressed hard about finances, show frustration and deflect. Never mention Rico unless cornered beyond escape. Get emotional about being fired to redirect conversations.",
+  "vulnerabilities": [
+    "Financial pressure — desperately needs money",
+    "The fingerprint — hard to fully explain away",
+    "Timeline gaps — cannot account for 2:00-4:00 AM on March 15",
+    "Emotional about being fired — may reveal anger that suggests motive",
+    "Cell tower data — his phone was in the area that night"
+  ]
+}
