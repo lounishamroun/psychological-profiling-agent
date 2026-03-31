@@ -1,112 +1,83 @@
-# Principes Méndez relatifs aux entretiens efficaces
+# Principes Méndez pour des Entretiens Efficaces : Guide Opérationnel pour l'Inspecteur
 
-## Introduction
+## I. Prévention de la Torture et des Mauvais Traitements lors des Entretiens
 
-Le droit international interdit la torture et les mauvais traitements de façon absolue. Pourtant, ces actes demeurent courants et répandus dans le monde entier. En particulier, la torture, les mauvais traitements ou la coercition sont fréquemment utilisés lors de l'interrogatoire de personnes soupçonnées d'une infraction, et dans le but d'obtenir des aveux ou des déclarations contre d'autres individus.
+### 1. Orientations Complètes pour des Mesures Efficaces
 
-Les Principes relatifs aux entretiens efficaces dans le cadre d'enquêtes et de collecte d'informations, également connus sous le nom de « Principes Méndez », incluent six principes fondamentaux. Ils ont été finalisés en mai 2021, à l'issue d'un processus de rédaction de quatre ans, piloté par des experts.
+Les Principes Méndez fournissent des directives concrètes pour mener des entretiens d'enquête sans recourir à la torture ou aux mauvais traitements. Ces principes s'appliquent à :
+*   Tous les contextes d'enquête (justice pénale, sécurité nationale).
+*   Toutes les catégories de personnes auditionnées (suspects, témoins, victimes, autres).
+Ils sont fondés sur les normes de droit, les preuves empiriques et la recherche scientifique pour obtenir des informations précises et fiables.
 
-Les Principes Méndez proposent une alternative aux interrogatoires coercitifs et basés sur l'obtention d'aveux. Ils encouragent les entretiens fondés sur l'établissement d'une relation, et ils reposent sur la mise en œuvre de garanties fondamentales qui doivent être respectées au cours des enquêtes de la justice pénale et d'autres formes de processus de collecte d'informations.
+### 2. Garanties Fondamentales lors de la Garde à Vue
 
-Ces Principes offrent des orientations aux responsables politiques et aux décideurs sur la conduite d'entretiens efficaces qui évitent le recours à la torture et aux mauvais traitements. Dans le même temps, ils renforcent l'efficacité des enquêtes et la prévention des crimes.
+Une attention particulière doit être portée aux premières heures de la garde à vue, où le risque de mauvais traitements est le plus élevé. Il est crucial d'appliquer des garanties juridiques et procédurales avant, pendant et après l'entretien pour assurer un traitement équitable dès le premier contact et tout au long de la procédure.
 
-## Orientations pour des entretiens efficaces
+### 3. Gestion des Personnes en Situation de Vulnérabilité
 
-### Des mesures concrètes et complètes
+Tout entretien place la personne auditionnée dans une situation de vulnérabilité due à un déséquilibre des pouvoirs inhérent.
+*   **Évaluation :** Évaluer les besoins et droits spécifiques des personnes en situation de vulnérabilité accrue (âge, sexe, identité de genre, nationalité, origine ethnique, handicap, autres facteurs de risque).
+*   **Adaptation :** Répondre à tout besoin spécifique en adaptant les méthodes d'entretien pour prévenir les risques de torture et de mauvais traitements.
 
-Les Principes Méndez proposent des orientations concrètes et complètes pour mener, sur tout territoire relevant d'une juridiction, des entretiens d'enquête sans recourir à la torture et aux mauvais traitements. Avec leur approche pratique et orientée vers les solutions, les Principes constituent une référence pour la mise en œuvre des recommandations en matière de prévention.
+## II. Surveillance Systématique des Règles et Pratiques d'Interrogatoire
 
-Les orientations fournies dans les Principes s'appliquent à tous les contextes d'enquête, y compris ceux relevant de la justice pénale et de la sécurité nationale, ainsi qu'à toutes les catégories de personnes auditionnées (personnes soupçonnées d'une infraction, témoins, victimes ou toute autre personne auditionnée).
+La surveillance des règles et pratiques d'interrogatoire est essentielle pour prévenir la torture et les mauvais traitements.
 
-Les Principes se fondent à la fois sur les normes de droit, les éléments de preuve empiriques et sur les conclusions de la recherche scientifique concernant les méthodes d'interrogatoire qui permettent le plus efficacement d'obtenir des informations précises et fiables.
+### 1. Garanties Spécifiques en Garde à Vue
 
-### Garanties fondamentales durant les premières heures de garde à vue
+Les garanties suivantes doivent être appliquées dès le début de la garde à vue :
+*   Droit d’être informé au moment de l'arrestation sur ses droits, les raisons de l'arrestation et les charges éventuelles.
+*   Droit d'informer un parent ou un tiers de la détention.
+*   Droit de garder le silence.
+*   Droit d'accès à un avocat.
+*   Droit d'accès à un médecin et à un examen médical indépendant.
+*   Droit d'être traduit dans les plus brefs délais devant un juge ou une autre autorité judiciaire.
+*   Droit d’être inscrit au registre des personnes détenues.
 
-Les Principes Méndez traitent de la protection à assurer durant les premières heures de la garde à vue, période pendant laquelle le risque de torture et de mauvais traitements est le plus élevé. Ils soulignent l'importance de mettre en œuvre des garanties juridiques et procédurales tout au long du processus d'entretien.
+### 2. Méthodes d'Interrogatoire et Enregistrement
 
-Les Principes soulignent la nécessité pour les autorités d'assurer la mise en œuvre effective des garanties procédurales avant, pendant et après l'entretien. Ces garanties contribuent à assurer le respect d'un traitement équitable dès le premier contact entre les autorités et la personne auditionnée, ainsi que tout au long de la collecte d'informations et des procédures judiciaires (Principe 2).
+*   **Enregistrement :** Tous les interrogatoires devraient faire l’objet d’un enregistrement audio et vidéo, mis en place de manière progressive. L’enregistrement facilite le travail d'enquête en cas d’allégation de mauvais traitements ou de torture et protège les intérêts des deux parties.
+*   **Interdiction :** Interdire toutes les techniques d'interrogatoire qui créent la confusion, sont définies en termes vagues et généraux, ou constituent des actes de torture ou des mauvais traitements.
+*   **Abandon des aveux comme preuve principale :** Améliorer les méthodes d’enquête pénale pour mettre fin aux pratiques où les aveux constituent la preuve principale et centrale, parfois en l’absence de tout autre moyen de preuve.
+*   **Approche fondée sur des éléments de preuve :** Adopter des alternatives aux interrogatoires coercitifs, en combinant des techniques d'entretien efficaces avec des garanties juridiques et procédurales pour privilégier des entretiens basés sur l’établissement d’une relation.
 
-### Protection des personnes en situation de vulnérabilité
+### 3. Normes et Transparence Institutionnelles
 
-Tout entretien place la personne auditionnée dans une situation de vulnérabilité en raison d'un rapport de force intrinsèquement inégal. Les Principes proposent des indications sur les méthodes d'entretien susceptibles de prévenir les risques de torture et de mauvais traitements.
+*   **Procédures opérationnelles standard :** Adopter et faire connaître les procédures opérationnelles standard, les politiques et les codes de conduite pour les agents chargés des entretiens.
+*   **Conformité :** S'assurer que les normes applicables sont conformes aux normes de conduite internationalement reconnues.
+*   **Contrôle et ressources :** Assurer un contrôle régulier pour évaluer le niveau des ressources financières investies et l'adéquation des moyens technologiques.
+*   **Transparence :** Rendre publiques les règles et procédures internes en matière d’entretien.
+*   **Garanties spécifiques :** Mettre en place des garanties pour assurer le droit d'accès à l'information, les principes de confidentialité et de respect de la vie privée, et la législation relative à la protection des données.
 
-Ils soulignent l'importance d'évaluer les besoins et les droits spécifiques des personnes en situation de vulnérabilité accrue (en raison de leur âge, sexe, identité de genre, nationalité ou origine ethnique, situation de handicap et autres facteurs de risque). Les Principes recommandent aux autorités de répondre à tout besoin spécifique de la personne auditionnée, en proposant des orientations concrètes sur la manière de mener ce type d'entretiens (Principe 3).
+## III. Formation du Personnel
 
-## Surveillance des règles et pratiques d'interrogatoire
+La formation joue un rôle essentiel dans la prévention efficace de la torture et des mauvais traitements.
 
-### Garanties lors des interrogatoires
+### 1. Contenu et Public de la Formation
 
-Les garanties à appliquer dès le début de la garde à vue comprennent :
+*   **Public :** Tous les personnels civils ou militaires chargés de l'application de la loi, le personnel médical, les agents de la fonction publique et toute autre personne impliquée dans la garde, l'interrogatoire ou le traitement d'individus arrêtés, détenus ou emprisonnés.
+*   **Message clé :** Insister sur l'interdiction absolue de la torture et des mauvais traitements en toutes circonstances, et sur le fait que la torture est un crime grave qui sera sanctionné.
+*   **Obligation de signalement :** Rappeler l'obligation de signaler tout cas de torture et de mauvais traitement à une autorité indépendante chargée d'enquêter et de poursuivre les auteurs.
+*   **Prévention et documentation :** Formation pratique sur la manière de prévenir la torture, d'identifier et de documenter les signes/cas de torture et de mauvais traitements, et de transmettre ces cas aux autorités compétentes.
+*   **Spécialisation :** Fournir une formation spécialisée et sensibiliser aux questions liées au genre, aux droits des personnes LGBTQI+, et au traitement d'autres groupes vulnérables.
+*   **Efficacité des techniques :** Mettre l'accent sur l'efficacité des techniques d'entretien non coercitives et le respect des garanties applicables.
 
-- Le droit d'être informé au moment de l'arrestation sur ses droits, les raisons de l'arrestation et les charges éventuelles
-- Le droit d'informer un parent ou un tiers de la détention
-- Le droit de garder le silence
-- Le droit d'accès à un avocat
-- Le droit d'accès à un médecin et à un examen médical indépendant
-- Le droit d'être traduit dans les plus brefs délais devant un juge ou une autre autorité judiciaire
-- Le droit d'être inscrit au registre des personnes détenues
+### 2. Évolution et Suivi de la Formation
 
-En ce qui concerne les interrogatoires, tous devraient faire l'objet d'un enregistrement audio et vidéo.
+*   **Actualisation :** Actualiser régulièrement les programmes de formation pour prendre en compte l'évolution des normes internationales des droits humains, les études scientifiques et les techniques validées par la pratique.
+*   **Formation continue :** Mettre en place des programmes de formation continue pour affiner les techniques d'entretien, corriger les erreurs et présenter les recherches scientifiques les plus récentes.
+*   **Évaluation :** Élaborer et mettre en œuvre une méthodologie spécifique pour évaluer régulièrement l'efficacité et l'impact de ces formations et programmes dans la réduction des cas de torture, de violence et de mauvais traitements.
 
-### Alternatives aux interrogatoires coercitifs
+## IV. Exclusion des Preuves Obtenues par la Torture
 
-Les Principes proposent des alternatives aux interrogatoires coercitifs fondés sur des éléments de preuve, en combinant de manière unique des techniques d'entretien efficaces avec la mise en œuvre de garanties juridiques et procédurales. Les Principes aident ainsi les autorités à faire évoluer les mentalités et à abandonner les pratiques et cultures institutionnelles axées sur l'obtention d'aveux au profit d'entretiens fondés sur l'établissement d'une relation.
+### 1. Règle d'Exclusion Absolue
 
-Les autorités chargées des enquêtes doivent adopter et faire connaître les procédures opérationnelles standard, les politiques et les codes de conduite visant à établir des normes à l'intention des agents chargés de mener des entretiens. Les normes applicables doivent être conformes aux normes de conduite internationalement reconnues (Principe 5).
+*   **Principe :** Les aveux et autres éléments de preuve obtenus par la torture, les mauvais traitements ou sous contrainte sont irrecevables dans toute procédure, pénale, civile, administrative ou judiciaire, sauf contre la personne accusée de torture pour établir qu'une déclaration a été faite.
+*   **Portée :** Cette règle s'applique largement et inclut les éléments de preuve indirects, les preuves d'origine étrangère (sans complicité de l'État partie), les preuves secrètes ou confidentielles, et tout type de déclarations (orales ou écrites, de l'accusé, du co-accusé ou d'un tiers).
 
-### Transparence et enregistrement
+### 2. Rôle des Autorités Judiciaires et Changement d'Objectif
 
-Les autorités doivent rendre publiques leurs règles et procédures internes en matière d'entretien. Des garanties spécifiques doivent être mises en place pour assurer le respect du droit d'accès à l'information, des principes de confidentialité et de respect de la vie privée, ainsi que de la législation relative à la protection des données (Principe 5).
-
-Il est essentiel d'assurer un enregistrement efficace des informations. Le recours à des moyens technologiques audiovisuels pour enregistrer les entretiens devrait être mis en place de manière progressive. L'enregistrement facilite le travail d'enquête en cas d'allégation de mauvais traitements et protège les intérêts des deux parties impliquées dans le processus d'entretien (Principe 5).
-
-## Formation aux entretiens efficaces
-
-### Principe 4 : obligation de formation
-
-Une formation spécifique, théorique et pratique, doit être dispensée à toutes les personnes qui mènent des entretiens, y compris les agents chargés de l'application de la loi, le personnel militaire et des services de renseignement, ainsi que toute autre personne impliquée dans le travail d'enquête.
-
-Cette formation devrait mettre l'accent sur l'efficacité des techniques d'entretien et le respect des garanties applicables.
-
-### Contenu et mise à jour des formations
-
-Les Principes précisent les éléments clés d'une formation portant sur les entretiens efficaces :
-
-- Actualiser régulièrement les programmes de formation afin de prendre en compte l'évolution des normes internationales des droits humains
-- Intégrer les études scientifiques et les techniques validées par la pratique
-- Mettre en place des programmes de formation continue destinés aux personnes chargées de mener des entretiens pour affiner les techniques d'entretien, corriger les erreurs et présenter les recherches scientifiques les plus récentes (Principe 4)
-
-## Règle d'exclusion des preuves obtenues sous la contrainte
-
-### Principe fondamental
-
-Les aveux et autres éléments de preuve obtenus par la torture sont irrecevables dans toute procédure. Cette règle d'exclusion est une disposition importante qui complète l'interdiction absolue de la torture.
-
-Les raisons qui sous-tendent la règle d'exclusion sont multiples :
-
-- Protéger le droit à un procès équitable dans toute procédure
-- Protéger les droits des victimes et le principe de l'intégrité judiciaire
-- Effet préventif : l'irrecevabilité de ce type d'éléments de preuve supprime toute incitation à recourir à la torture
-
-### Application pratique
-
-Les Principes Méndez fournissent des orientations concrètes sur la manière d'appliquer la règle d'exclusion en pratique. Les déclarations faites sous la torture ou d'autres mauvais traitements ou sous la contrainte doivent être exclues de toute procédure judiciaire (Principes 1 et 6).
-
-Les autorités judiciaires jouent un rôle essentiel pour assurer la mise en œuvre effective de cette règle d'exclusion. Elles sont invitées à :
-
-- Supprimer tout élément susceptible d'inciter les autorités chargées des enquêtes à obtenir des aveux par tous les moyens
-- Encourager le recours à des méthodes d'enquête éthiques et scientifiquement éprouvées
-- Veiller à ce que seuls les éléments de preuve obtenus légalement soient déclarés recevables
-- Être vigilantes à tout signe indiquant qu'une déclaration a pu être faite sous la contrainte
-
-### Obligation de signalement
-
-Les Principes prévoient une obligation de signalement lorsque des professionnels de la justice pénale voient, entendent ou soupçonnent des actes répréhensibles dans le cadre d'un entretien.
-
-### Changement d'objectif
-
-L'objectif ultime d'un entretien doit être de recueillir des informations fiables et précises et non des aveux (Principe 5). La place excessive accordée aux aveux dans les procédures judiciaires peut inciter indûment les personnes qui mènent des entretiens à considérer l'obtention d'aveux comme le seul objectif.
-
-## Conclusion
-
-Les Principes Méndez proposent un cadre de référence essentiel pour mettre en œuvre les obligations en matière d'interdiction et de prévention de la torture et des mauvais traitements. L'approche constructive et orientée vers la recherche de solutions contribue à éviter les pratiques coercitives qui visent l'obtention d'aveux et encourage l'adoption de processus d'enquête et de justice efficaces, équitables et fondés sur les droits humains.
+*   **Vigilance judiciaire :** Les autorités judiciaires doivent veiller à ce que seuls les éléments de preuve obtenus légalement soient déclarés recevables et être vigilantes à tout signe indiquant qu'une déclaration a pu être faite sous contrainte ou dans le cadre de mauvais traitements.
+*   **Obligation de signalement :** Les professionnels de la justice pénale ont une obligation de signalement s'ils voient, entendent ou soupçonnent des actes répréhensibles lors d'un entretien.
+*   **Changement d'optique :** L'objectif ultime d'un entretien doit être de recueillir des informations fiables et précises, et non d'obtenir des aveux, afin d'éliminer toute incitation à recourir à des moyens coercitifs.
+*   **Droit de la personne auditionnée :** L'exclusion des preuves obtenues sous la torture ou d'autres mauvais traitements est un droit pour toute personne auditionnée, constituant un recours efficace contre les actes répréhensibles des enquêteurs.
