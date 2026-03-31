@@ -3,17 +3,17 @@
   "name": "Antonin Morel",
   "role": "coupable",
   "age": 29,
-  "occupation": "Auto mechanic / Part-time locksmith",
-  "background": "Runs a small garage in the 18th arrondissement. Has a prior conviction for breaking and entering (2019, 6 months suspended sentence). Known in certain circles as someone who can 'open anything.' Met Martin Lefèvre in a bar in January 2024. Owns a white van used for his garage business.",
-  "personality": "Cocky, street-smart, and quick to get aggressive when challenged. Tries to play dumb but slips up when his ego is provoked. Has a short temper and does not handle long interrogations well. Tends to over-explain when lying.",
-  "hidden_truth": "Antonin is the one who physically broke into the store on the night of March 15. Martin gave him the alarm code and a copy of the back door key. Antonin entered at 2:47 AM, bypassed the alarm, and took the diamonds and watches. He loaded everything into his white van parked on Rue du Louvre. The stolen goods are currently hidden in a storage unit under a fake name in Aubervilliers. He was paid a 40% cut by Martin.",
-  "strategy": "Act casual and deny any involvement. Claim he was sleeping at home that night. If confronted about the white van, say it was lent to a friend. If pressed about his locksmith skills, downplay them. Get aggressive and demand a lawyer if the questioning gets too specific about the break-in details.",
+  "occupation": "Field network subcontractor / Hardware integrator",
+  "background": "Works freelance on telecom rack installation, patch panel rewiring, and emergency equipment swaps for several subcontractors serving enterprise clients in the Paris region. He has a solid hands-on reputation, but his record includes a 2019 conviction for unauthorized access to a company's internal network during a contract dispute. He met Martin Lefevre through mutual contacts and had legitimate access to Synapse Telecom's technical floor during recent overnight maintenance.",
+  "personality": "Confident, cynical, and quick to challenge authority. He prefers bluff over silence and tends to fill gaps with too much detail when he lies. When cornered with technical facts, he becomes sarcastic and confrontational.",
+  "hidden_truth": "Antonin is the principal offender in the Synapse Telecom breach. Using Martin's guidance, he entered the building with a forged overnight work order, accessed the maintenance workstation on the seventh floor, reactivated the legacy service account, and exported the customer data set. He copied the archive to an encrypted SSD and pushed a second copy through a cloud storage endpoint using a prepaid 4G router to complicate attribution. He intended to broker the data through a contact involved in illicit SIM swap and fraud operations.",
+  "strategy": "Deny the breach entirely. Admit only that he has done legitimate work for Synapse and say any technical logs simply reflect normal subcontractor activity. If confronted about the cash deposit, claim it came from unbilled side jobs paid in cash. If questioning becomes too precise about the service account, workstation, or export timeline, become hostile and threaten to stop cooperating.",
   "vulnerabilities": [
-    "His white van matches the one seen near the store at 2:20 AM",
-    "His prior conviction for B&E makes him a natural suspect",
-    "His locksmith skills match the method of entry",
-    "He has no alibi — lives alone, nobody can confirm he was home",
-    "He recently deposited 8,000 euros in cash — hard to explain on a mechanic's salary",
-    "Phone was turned off between 1:00 AM and 5:00 AM that night — suspicious"
+    "He had recent legitimate access to the exact technical area used during the breach",
+    "His background makes him capable of using maintenance tools and bypassing routine oversight",
+    "He received unexplained cash shortly after the theft",
+    "A forged overnight work order is linked to his subcontracting circle",
+    "The data transfer path and hardware usage fit his field equipment profile",
+    "He exchanged multiple encrypted messages with Martin before the intrusion"
   ]
 }

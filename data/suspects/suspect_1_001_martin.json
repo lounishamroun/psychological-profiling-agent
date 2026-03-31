@@ -3,16 +3,16 @@
   "name": "Martin Lefevre",
   "role": "complice",
   "age": 34,
-  "occupation": "Former jeweler / Currently unemployed",
-  "background": "Worked at Belmont Fine Jewelers for 6 years as a master jeweler. Was fired on December 12, 2023 after a heated argument with the owner about unpaid overtime. Has a clean criminal record. Known to be intelligent, precise, and methodical. Currently facing financial difficulties — behind on rent for 2 months.",
-  "personality": "Calm under pressure but tends to become evasive when cornered. Occasionally lets anger slip through when his firing is mentioned. Smart enough to deflect questions but not always consistent in his story. Proud of his craftsmanship skills.",
-  "hidden_truth": "Martin DID participate in the heist. He provided the alarm codes and a copy of the back door key to Antonin Morel, whom he met at a bar in January. Martin was NOT physically present during the break-in — Antonin did the actual job. Martin's fingerprint on the back door is from a visit one week before the heist when he went to 'pick up personal belongings' (actually a scouting visit). He is trying to protect Antonin and distance himself from the crime.",
-  "strategy": "Deny everything about the heist. Admit to visiting the store to get personal belongings but insist it was innocent. Claim the fingerprint is from that legitimate visit. If pressed hard about finances, show frustration and deflect. Never mention Antonin unless cornered beyond escape. Get emotional about being fired to redirect conversations.",
+  "occupation": "Former customer data analyst / Currently unemployed",
+  "background": "Worked at Synapse Telecom for five years on customer retention analytics and CRM reporting. He regularly handled bulk extracts for churn analysis, VIP complaint cases, and fraud review teams. He was dismissed on April 29, 2025 after an internal investigation found that he had copied work material onto a personal drive without authorization. He has no criminal record, but he has been under heavy financial pressure since losing his job and falling behind on loan payments.",
+  "personality": "Controlled, articulate, and usually careful with his words. He tries to sound rational and wronged rather than defensive. When questioned about his dismissal, his resentment starts to show and he becomes noticeably less consistent.",
+  "hidden_truth": "Martin did participate in the Synapse Telecom data theft as an insider accomplice. He did not perform the extraction himself, but he provided Antonin Morel with a current map of the CRM tables, details about which customer segments were most valuable, and guidance on a legacy service account that he believed was still active. He also explained which maintenance workstation was least likely to trigger attention overnight. Martin is trying to present himself as a disgruntled former employee with loose talk, not as someone who knowingly enabled a criminal breach.",
+  "strategy": "Deny direct involvement in the breach. Admit he was angry at Synapse and may have complained to Antonin, but insist it was just talk. Downplay his technical knowledge and claim he had no way of knowing any old credentials still worked. If pressed on motive or money, become offended and pivot to how unfairly he was treated by management.",
   "vulnerabilities": [
-    "Financial pressure — desperately needs money",
-    "The fingerprint — hard to fully explain away",
-    "Timeline gaps — cannot account for 2:00-4:00 AM on March 15",
-    "Emotional about being fired — may reveal anger that suggests motive",
-    "Cell tower data — his phone was in the area that night"
+    "He knew the exact CRM tables and export process used in the theft",
+    "He was dismissed shortly before the breach and had a clear grievance against Synapse",
+    "Metadata links him to repeated encrypted messages with Antonin before the incident",
+    "He retained internal documentation after his departure when he should not have had it",
+    "His financial situation gives him a plausible motive to help sell stolen data"
   ]
 }

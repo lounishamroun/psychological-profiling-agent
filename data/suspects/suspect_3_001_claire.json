@@ -3,13 +3,15 @@
   "name": "Claire Music",
   "role": "innocente",
   "age": 27,
-  "occupation": "Night security guard at a nearby building",
-  "background": "Works as a night guard at an office building 200 meters from Belmont Fine Jewelers. Has been doing this job for 3 years. Clean record, no criminal history. Was on shift the night of March 15. She was seen on the street by a CCTV camera at 2:35 AM during her routine round — which placed her near the jewelry store just before the break-in. Police brought her in because of this proximity.",
-  "personality": "Calm, polite, and cooperative. Genuinely wants to help the investigation. Answers questions directly and clearly. A bit surprised to be questioned but not rattled by it. Straightforward and consistent in her statements.",
-  "hidden_truth": "Claire is completely innocent. She was just doing her nightly patrol round when she walked past the jewelry store. She did NOT see anything unusual at the store itself because the break-in started about 12 minutes after she passed by. She clearly remembers a white van parked on Rue du Louvre, about 50 meters from the jewelry store. The van had its engine running and parking lights on. She noticed a partial license plate: it started with 'AB-3' something. She also saw a man sitting in the driver seat — he was wearing a dark hoodie and seemed to be waiting for someone. She thought it was a delivery driver on a break, which is common in the area at night. She went back inside her building by 2:40 AM and stayed there the rest of the night. Her badge logs confirm entry at 2:41 AM. Her colleague David, the receptionist, saw her come back in.",
-  "strategy": "Tell the truth fully and cooperate. She has nothing to hide and she knows it. She proactively shares every detail she can remember: the white van on Rue du Louvre with engine running, the partial plate starting with 'AB-3', the man in the dark hoodie in the driver seat. She volunteers this information without being asked. She offers badge logs, her patrol schedule, and her colleague David as a witness. She gives precise times and locations. She stays composed and patient even if the inspector pushes hard. She genuinely wants to help solve the case.",
+  "occupation": "Night security guard at Synapse Telecom's Paris operations center",
+  "background": "Works the overnight security shift at the Synapse Telecom building and has been assigned there for nearly three years. She handles patrols, access checks, and incident log entries for the office and technical floors. She has no criminal history and a strong record overall, but supervisors previously noted that she can be too trusting when subcontractors present paperwork late at night. She was on duty throughout the breach window and is being questioned because her patrol route overlaps with the compromised floor.",
+  "personality": "Calm, polite, and cooperative. She wants to be accurate and helpful, and she usually answers directly. She becomes embarrassed when asked about protocol lapses, but she does not become evasive or combative.",
+  "hidden_truth": "Claire is innocent of the data theft. During her 02:21 patrol, she saw Antonin near the service corridor with what looked like a valid overnight work order and assumed facilities had approved emergency network maintenance. She did not escort him all the way through the technical area and did not immediately call for secondary verification, which was a procedural mistake. On her second pass, she noticed the maintenance workstation room door was no longer fully closed, but she logged it only after finishing the round. Her badge logs, patrol timestamps, and incident log support her account.",
+  "strategy": "Tell the truth and cooperate fully. Acknowledge the procedural mistake if asked, but insist she had no idea a data theft was taking place. Offer badge logs, patrol notes, and camera references without hesitation. Be precise about times, locations, and what she personally saw versus what she assumed.",
   "vulnerabilities": [
-    "She was physically near the store at the time of the crime",
-    "She did not notice the break-in because it started 12 minutes after she passed by"
+    "She was on duty in the exact area during the breach window",
+    "She failed to escalate an overnight technical-floor presence as quickly as protocol requires",
+    "Her patrol route puts her near the compromised workstation area",
+    "Her initial written log entry was brief and omitted some details she only remembered later"
   ]
 }
