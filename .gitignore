@@ -1,4 +1,4 @@
 .env
 __pycache__/
 .venv
-data/rag_docs
+data/rag_docs/processed/
