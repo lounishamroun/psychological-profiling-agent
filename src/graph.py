@@ -17,7 +17,7 @@ from src.agents import (
 )
 
 
-# -- Retrieve context node (closure so we can pass the RAG collection in) --
+# Retrieve context node (closure so we can pass the RAG collection in)
 
 def _make_retrieve_node(rag_collection):
     """Creates the retrieve_context node with access to the RAG collection."""
@@ -50,7 +50,7 @@ def _make_retrieve_node(rag_collection):
     return retrieve_context
 
 
-# -- After profiling: do we keep going or wrap up? --
+# After profiling: do we keep going or wrap up?
 
 def _should_continue(state: InterrogationState) -> str:
     """Decides whether we loop for another turn or go to the final report."""
@@ -59,7 +59,7 @@ def _should_continue(state: InterrogationState) -> str:
     return "final_report"
 
 
-# -- Main entry point --
+# Main entry point
 
 def build_graph(rag_collection=None):
     """Build the full interrogation graph.
