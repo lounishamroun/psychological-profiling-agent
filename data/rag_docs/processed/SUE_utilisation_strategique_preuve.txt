@@ -1,0 +1,540 @@
+may differ in the amount of mental load they experience, and/or in the way 
+that they strategize and plan their statements. For example, the cognitive load 
+approach posits that lying is more mentally demanding than telling the truth, 
+because liars face a more difficult task ( Vrij, 2008; Vrij et al., 2006a, 2012). The 
+cognitive load approach suggests that by imposing further cognitive load, 
+liars, who are presumably already taxed by lying, may show more signs of 
+cognitive load than truth-tellers. In support of the cognitive load hypothesis, 
+empirical studies demonstrate that when liars and truth-tellers produce their 
+story under mentally demanding conditions (e.g., by being asked to tell their story in reverse order), the behavioral differences between liars and truth-
+tellers are more pronounced ( Vrij 
+et al., 2008). Another line of research, the 
+unanticipated questions approach, assumes that liars prepare some, but not all aspects of their cover story. This approach suggests that by asking liars 
+unexpected questions about their cover story, their responses may be less 
+detailed, plausible, and consistent (e.g., Vrij 
+et al., 2009). For a detailed discus-
+sion of strategic questioning approaches, see Vrij and Granhag (2012).
+SUE: THEORETICAL PRINCIPLES
+In line with the strategic questioning approaches reviewed briefly above, 
+the SUE technique is based on the idea that there are cognitive differences 
+between liars and truth-tellers. Specifically, the SUE approach posits that liars 
+and truth-tellers employ different strategies to convince. These strategies are 
+referred to as counter-interrogation strategies (Granhag and Hartwig, 2008). 
+Before we describe the research on counter-interrogation strategies, we will elaborate on the fundamental theoretical principles from basic psychological 
+research that underlie the SUE technique.
+Psychology of Self-Regulation
+The SUE approach is anchored in the basic psychology of self-regulation 
+(for comprehensive reviews, see Carver and Sheier, 2012; Forgas et al., 2009; 
+Vohs and Baumeister, 2011). In brief, self-regulation theory is a social cog-
+nitive framework for understanding how people control their behavior to 
+steer away from undesired outcomes and toward desired goals. In the pres -
+ent context, the desired goal for both liars and truth-tellers is to convince an
+
+interviewer that their statement is true. In general, people formulate goals, 
+and use planning and self-regulatory strategies in order to reach desired 
+goals. While some self-regulatory activity occurs automatically and without 
+conscious awareness or thought (Bargh and Chartrand, 1999), other situa-
+tions activate conscious, deliberate control of behavior. The SUE technique 
+focuses primarily on conscious strategies to reach goals. Psychological research shows that self-regulatory strategies are evoked by threatening situ -
+ations, especially ones in which one lacks knowledge about a forthcoming aversive event (Carver and Sheier, 2012 ). In line with self-regulation theory, 
+it is reasonable to assume that liars and truth-tellers will view an upcoming 
+interview as a potential threat – the threatening element being the possibility 
+that one might not be believed by the interviewer. Importantly, not knowing 
+how much or what the interviewer knows may add to this threat.
+A person attempting to avoid a threat and reach a particular goal will, under 
+normal circumstances, have a number of self-regulatory strategies to choose 
+from (Vohs and Baumeister, 2011 ). The common objective of these strategies 
+is to attempt to restore and maintain control in order to steer oneself toward the desired outcome. Generally, these strategies can be reduced to two basic categories: behavioral strategies and cognitive strategies. An example of a behav -
+ioral strategy is to attempt to physically avoid the aversive event altogether, and an example of a cognitive strategy is to focus on the less-threatening aspects of the aversive event. Both types of strategies may be employed in an 
+interview context. For example, suspects may decide to remain completely 
+silent during interrogation (a behavioral control strategy), or they can view 
+the situation as a chance to persuade the interviewer that they are telling the 
+truth (a cognitive control strategy).
+The SUE framework focuses primarily on cognitive control strategies. Self-
+regulation theory suggests that there are several types of cognitive control 
+(Fiske and Taylor, 2008). For suspects in interview settings, several cog -
+nitive control strategies may be relevant: information control, which is the 
+sense of control achieved when one obtains information about the threaten -
+ing event, and decision control, which refers to the sense of control achieved when one makes a decision about to how to behave in the forthcoming event (Averill, 1973).
+
+Self-Regulatory Differences between Liars and Truth-Tellers
+As argued above, lying and truth-telling suspects are similar in the sense 
+that an interview presents a goal (being perceived as a truth-teller) and a 
+threat (being perceived as a liar). However, liars and truth-tellers differ in 
+at least one important way, which pertains to the critical information they 
+hold. That is, liars are per definition motivated to conceal certain information 
+from the interviewer. For example, they may conceal information about their involvement in a transgression or they may hold on to general information 
+about other people’s identities and actions that they are motivated to keep 
+the interviewer ignorant about. The primary threat for liars is thus that the interviewer will come to know this information. Hence, it makes sense for 
+liars to view this information as an aversive stimulus. To be clear, the threat 
+is not necessarily the information in itself, but that the interviewer may come 
+to know the truth about this information. In contrast, a truth-telling person 
+does not possess information that they are motivated to conceal. Thus, truth-tellers have the very opposite problem: that the interviewer may not come to 
+know the truth. In sum, both liars and truth-tellers may plausibly perceive 
+an interview as an event that activates goals; therefore, they will employ self-
+regulatory strategies to reach their goals. Critically, because liars and truth-
+tellers differ in concealment of critical information, they can be expected to adopt different strategies with regard to information.
+As noted above, decision control strategies are attempts to gain control over 
+a situation by making decisions about how to act. Translated to lying and 
+truthful suspects in the context of an interview, decision control strategies 
+primarily revolve around information management – simply put, what infor -
+mation to include in one’s account ( Hartwig 
+et al., 2010). Below, we will first 
+focus on the information management strategies of liars and then provide an 
+overview of principles underlying truth-tellers’ strategies.
+Liars’ and Truth-Tellers’ Information Management Strategies
+We previously noted that the primary threat for liars is that the interviewer 
+will come to know the information they are attempting to conceal (e.g., their 
+involvement in some crime under investigation). In order to avoid this out -
+come, liars must balance multiple risks in order to convince the interviewer.
+
+They must suppress the critical information, to manage the risk that the 
+interviewer will know the truth. However, in order to appear credible, a 
+liar has to offer some form of account in place of the truth. Offering false 
+information to conceal one’s action (e.g., claiming that one never visited 
+place X) entails another risk – if the interviewer has information that the 
+suspect indeed visited this place, the suspect’s credibility is in question. Striking the appropriate balance between concealing incriminating infor -
+mation and offering details in order to appear credible is a crucial consid -
+eration for liars.
+Generally speaking, liars must make a number of strategic decisions about 
+what information to avoid, deny, and admit during an interview. This 
+ decision-making perspective draws on work by Hilgendorf and Irving (1981), 
+who proposed a theoretical model to explain people’s decisions to confess or 
+deny in interrogations, in turn derived from Luce’s (1967) classic work on 
+decision making in risky situations. Although Hilgendorf and Irving (1981) 
+primarily sought to understand why people choose to confess, the model 
+extends to broader aspects of behavior during interviews. The basic assump -
+tion of the model is that interviewees, in particular those who are motivated 
+to conceal certain information, must engage in a complicated decision- 
+making process. For example, they must make decisions about whether to speak or remain silent, whether to tell the truth or not, what parts of the truth 
+to tell and what parts to withhold, and how to respond to questions posed 
+during the interview. According to the model, decisions are determined by (1) perceptions of the available courses of action, (2) perceptions concerning
+the probabilities of the occurrence of consequences attached to the available
+courses of action (i.e., subjective probabilities), and (3) the utility values asso -
+ciated with these courses of action. For a full description of the model and itsimplications, see Hilgendorf and Irving (1981) and Gudjonsson (2003).
+When it comes to the critical information that must be concealed, there are two 
+broad strategies to manage these facts: a suspect could either choose avoidance 
+(e.g., when asked to freely provide a narrative, avoid mentioning that he/she visited a certain place at a certain time) or escape (i.e., denial) strategies. For 
+example, in response to a direct question, a suspect could deny that he/she 
+was at a certain place at a certain time. Interestingly, psychological research
+
+shows that avoidance and escape strategies are very basic forms of behav -
+ior in response to threatening stimuli. Specifically, research on aversive con -
+ditioning shows that these strategies are fundamental responses that apply 
+to both humans and animals ( Carlson and Buskist, 1996; for a discussion of 
+the neuropsychological mechanisms of avoidance and escape responses, see Cain and LeDoux, 2008).
+Turning to truth-tellers, we have already pointed out that they differ from 
+liars in terms of concealment – in contrast to liars, they are not facing an information management dilemma in which critical information must be 
+suppressed and false information must be proposed. As a result of this, we 
+can expect that truth-tellers will employ rather simple strategies by being 
+forthcoming. That is, they may believe that if they simply convey the truth, 
+the interviewer will believe them. This may sound like a naïve and overly simplistic prediction, but it is important to understand such a belief can be 
+explained by a number of basic social psychological theories. First, the mind -
+set of a truth-teller may be influenced by the belief in a just world ( Lerner, 
+1980). In brief, this theory postulates that people have a fundamental trust in 
+the fairness of the world and that they believe that people receive outcomes that they deserve (for a meta-analytic review of the theory, see Hafer and 
+Bègue, 2005). For example, people generally believe that good things hap -
+pen to good people and that bad things happen to bad people (but not the other way around). The belief in a just world may influence a truth-teller 
+to believe that if they tell the truth, they will be believed simply because 
+they deserve it ( Feather, 1999). Second, research on social cognition suggests 
+that people harbor an illusion of transparency ( Gilovich 
+et al., 1998; Savitsky 
+and Gilovich, 2003). This is a general tendency to overestimate the extent to 
+which internal processes are evident in behavior. For example, a person who 
+is very nervous about a public speech may overestimate the extent to which 
+the audience can perceive this nervousness. Experimental research shows 
+that people overestimate the transparency of their inner states in a number of situations (Vorauer and Clade, 1998). Of particular relevance for this context, 
+research on guilty and innocent crime suspects suggests that innocent people 
+display an illusion of transparency. Kassin and Norwick (2004) found that 
+ innocent (versus guilty) suspects were more prone to waive their Miranda 
+rights and agree to be interrogated. Innocent suspects’ actions were
+
+accompanied by the argument that they had nothing to hide because of their 
+innocence and that if they simply spoke to the interrogator, he/she would 
+“see” that they were telling the truth (for more on the so-called phenomenol -
+ogy of innocence, see Kassin, 2005).
+Empirical Research on Counter-Interrogation Strategies
+In the program of research on SUE, there have been a number of empirical 
+tests of the theoretical principles discussed above. This research has mapped 
+liars’ and truth-tellers’ counter-interrogation strategies. Recall that these 
+strategies are the courses of actions described by interviewees in order to 
+convince an interviewer that they are telling the truth. In the typical study 
+on counter-interrogation strategies, some participants are induced to com-mit a mock crime, which they are then asked to deny involvement in. Other 
+participants engage in some innocuous activity and hence will be truthfully 
+denying the mock crime. In relation to the interview, these participants are asked (1) whether they had a strategy to convince the interviewer that they 
+were not involved in the crime and (2) if yes, what this strategy was.
+Based on the reasoning outlined above, it is possible to propose a number 
+of predictions regarding the counter-interrogation strategies of liars and 
+truth-tellers.
+ (1) Since lying entails strategic decision making, liars will often report a
+plan or strategy before entering an interview.
+ (2) In terms of specific strategies, liars will (if given the opportunity) avoid
+disclosing critical information.
+ (3) If liars are deprived of the avoidance alternative, they will turn to
+escape responses (i.e., faced with direct questions, their strategy will be
+to deny holding the critical information). As for truth-tellers, previously
+discussed theory predicts that they will be less likely to express a plan
+or a strategy to convince. When they do express specific strategies, these
+will primarily be strategies of being verbally forthcoming.
+The empirical data on counter-interrogation strategies support the predictions above. The available studies consistently show that liars are more likely than
+
+TRANSLATING PSyCHOLOGICAL THEOR y INTO INTER vIEw TACTICS 15
+
+truth-tellers to strategize prior to an interview. For example, in the sample 
+reported by Hartwig et al. (2007), the majority of liars (60.5%) reported a strategy 
+prior to being interviewed, while far fewer truth-tellers did so (37.5%). In line 
+with the expectations from theory, liars’ strategies were dominated by infor -
+mation management strategies, such as providing a simple and streamlined story, and avoiding or outright denying incriminating information ( Hartwig 
+et al., 2010). Hines et al. (2010) also found that liars reported planning prior to 
+an interview, and that the strategies they employed revolved around monitor -
+ing and controlling critical information (see also Colwell et al., 2006). Further in 
+line with predictions, the principal strategy reported by truth-tellers (in those cases when they reported having a strategy) was to tell the truth like it hap -
+pened (Strömwall 
+et al., 2006). Importantly, this pattern of strategies has been 
+replicated for people with extensive experience of interrogation: in a study 
+mapping criminals’ counter- interrogation strategies, participants reported 
+using aversive and avoidant strategies when deceiving (Granhag et al., 2009).
+TRANSLATING PSYCHOLOGICAL THEORY 
+INTO INTERVIEW TACTICS
+In the sections above, we have reviewed the basic principles on which the 
+SUE technique is based. In particular, we have elaborated on the different 
+approaches that liars and truth-tellers employ in order to reach the goal of 
+convincing, and how these approaches can be expected to result in different 
+counter-interrogation strategies. We now discuss the research on how these 
+differences in counter-interrogation strategies can be translated into interview tactics that produce different verbal accounts from liars and truth-tellers.
+As mentioned earlier, the SUE approach exploits the available informa -
+tion/evidence to highlight differences in liars’ and truth-tellers’ counter- 
+interrogation strategies. In order to explain how this can be accomplished, we will describe the first test of the SUE principles ( Hartwig 
+et al., 2005). 
+This study employed a mock crime paradigm, in which participants were 
+randomly assigned to be either guilty (i.e., liars) or innocent (i.e., truth-
+tellers). Liars were instructed (one at a time) to go to a nearby store and to 
+find a briefcase in the corner of that store. They were instructed to open the
+
+briefcase and take a wallet that was placed in the briefcase. Truth-tellers 
+were instructed to go to the same store and to look for an object in the same 
+corner. The situation was arranged in such a way that truth-tellers had to 
+move the briefcase in order to look for the relevant object (however, they 
+did not steal the wallet).
+There were several pieces of information collected: (1) there was a witness 
+outside the store who saw participants enter the store, (2) there was a store 
+clerk who observed the participants in the corner of the store, and (3) there was evidence that the participants had handled the briefcase, as their fin-
+gerprints were found on it. Note that this information was true for both 
+liars and truth-telling participants (i.e., the information suggested, but did 
+not conclusively prove, that the participants may have been involved in the 
+theft). All participants were subsequently informed that there had been a theft and that they would be questioned about their recent actions. Liars 
+and truth-tellers were both told that their goal was to convince the inter -
+viewer that they were not involved in the theft, but they did not receive any further information.
+There were two types of interviews. In one condition, the available evi -
+dence (the two witness reports and the fingerprint evidence) was disclosed 
+in the beginning of the interview, after which the interviewer posed ques -
+tions about the subjects’ actions and whereabouts. In this early disclosure 
+condition, truth-tellers and liars provided similar accounts, which tended 
+to incorporate the evidence without admitting to the theft. For example, 
+both liars and truth-tellers tended to say that they had indeed been in 
+the store and that they had handled the briefcase while searching for an object (recall that this was true for some, but not all suspects). Lie-catch -
+ers who viewed these videotaped interviews could not tell the difference between true and false accounts – their accuracy in detecting lies was at 
+chance level. In a second condition (the SUE condition), the evidence was 
+withheld until the end of the interview. While the evidence was withheld, the interviewer asked a number of questions. First, they prompted sub -
+jects to provide a free recall of their actions during the day. Second, they asked a number of specific questions that addressed the evidence, but did not disclose that the interviewer possessed this evidence. For example,
+
+TRANSLATING PSyCHOLOGICAL THEOR y INTO INTER vIEw TACTICS 17
+
+subjects were asked to describe the locations they had visited during the 
+day, whether they had visited the store in question, and if so, what part 
+of the store. Further, they were asked whether they had been in the cor -
+ner of the store, whether they had seen a briefcase, and whether they had handled this briefcase.
+The purpose of these specific questions was to highlight the difference in 
+strategies between liars and truth-tellers (i.e., to highlight truth-tellers as 
+forthcoming and liars’ strategies of avoidance and denial). In this interview condition, the difference between the statements given by liars and truth-
+tellers was marked. In response to the free recall prompt, liars showed clear 
+signs of avoidance strategies: they frequently refrained from mentioning 
+the store, and without exception avoided mentioning the briefcase. In con -
+trast, truth-tellers’ responses to the free recall prompt suggested forthcom-
+ing approaches: they frequently volunteered information relating to the 
+evidence, such as having been in the corner of the store and having been 
+in contact with the briefcase. For the specific questions, further signs of 
+differences in strategy between liars and truth-tellers were obtained: truth-
+tellers’ responses were in line with the evidence (e.g., when asked whether they had been in the corner of the store, truth-tellers agreed that they indeed 
+had), while liars’ responses tended to be inconsistent with the evidence 
+(e.g., when asked whether they had seen a briefcase, many liars denied). The cue that appeared when suspects were questioned strategically about 
+the evidence was labeled statement–evidence consistency, which reflects 
+discrepancies or contradictions between the suspects’ account and the evi -
+dence. Lie-catchers who saw the interviews conducted in the SUE manner were significantly more accurate than chance in distinguishing between true and false statements.
+Granhag (2010) has argued that the SUE technique is best described as con -
+sisting of a strategic level and a tactical level. The strategic level is the more 
+abstract, and contains the case-independent and general principles underly -
+ing the SUE technique. The tactical level is the more concrete, and contains a 
+package of different case-dependent and specific tactics. These specific tac -
+tics include question tactics and disclosure tactics (Granhag, 2010). These tactics 
+are important both for the planning of the interview and during the actual
+
+interview. Importantly, all these tactics are derived from the conceptual 
+framework underlying the SUE technique (the strategic level).
+Questioning Tactics
+The example above illustrates a number of fundamental aspects of strategic questioning in the SUE model. First, in order to highlight differences in strat -
+egy between liars and truth-tellers, the relevant information possessed by the interviewer must be withheld ( Granhag and Hartwig, 2008 ). That is, when 
+liars are unaware or unsure about what the interviewer knows, their strate -
+gies of avoidance and denial become evident in their verbal behavior.
+Second, different types of questions yield different cues to deception when 
+the evidence is withheld. Broad, open-ended questions that invite free recalls tend to produce differences in omissions between liars and truth-tellers. That 
+is, as illustrated by the example above, truth-tellers are likely to volunteer 
+information (even potentially incriminating information such as being at 
+the scene of a crime, plausibly because the information is not perceived as 
+incriminating to them), while liars tend to avoid disclosing such information. For more specific questions (e.g., “were you in place X on day Y?”), liars can 
+no longer employ avoidance strategies – the nature of these questions forces 
+liars to either admit or deny. As discussed previously, there are theoretical 
+reasons to expect that liars’ strategies in response to specific questions about 
+critical information will be colored by escape/denial responses. In a study examining the effects of various forms of questions using a SUE approach, 
+Hartwig 
+et al. (2011) compared cues to deception in response to broad, open 
+questions to those elicited by more specific, closed-ended questions. Indeed, the results showed that while free recall prompts led to omissions in liars’ 
+statements, specific questions led to blatant signs of dishonesty in the form 
+of contradictions with the facts (i.e., statement–evidence inconsistencies). 
+These cues were more pronounced and more noticeable than the omission cues. Much has been written about potential problems with using closed-
+ended questions during investigative interviews (for an overview of the gen -
+eral literature on investigative interviewing, see Bull 
+et al., 2009), but in this 
+particular context, it seems that specific questions of a strategic nature may be powerful instruments in producing signs of deception. It should also be
+
+TRANSLATING PSyCHOLOGICAL THEOR y INTO INTER vIEw TACTICS 19
+
+noted that specific questions about the evidence serve the purpose of system -
+atically exhausting alternative explanations that a guilty suspect may have 
+for the existence of the evidence (Granhag and Vrij, 2010).
+Third, a series of SUE studies (e.g., Hartwig et al., 2005, 2006, 2011; Jordan 
+et al., 2012) shows that the more incriminating the information is that the 
+interviewer probes about, the more pronounced liars’ escape and denial 
+strategies tend to be. This makes sense if one recalls that liars construe the 
+information to be concealed as an aversive stimulus – put simply, they aim 
+to stay away from that information. In a recent study ( Hartwig et al., 2011), 
+liars and truth-tellers were sent to the far corner of a library to commit either a mock crime or a benign act. In order to reach the relevant location, par -
+ticipants had to pass by several different “check points.” For example, after entering the library, they passed by an information desk, after which they 
+reached a reference section, followed by a group of tables close to a window (where both groups of participants were to complete their mission). The spe -
+cific questions addressed these different check points (e.g., “In the library, did you pass by an information desk?,” “Did you see a group of tables by a window?”). Interestingly, liars’ escape responses became more pronounced 
+the closer the questions came to addressing the most critical information. For 
+example, while some liars admitted to being in the library, fewer admitted 
+to passing by the reference section and even fewer admitted to being by the 
+group of tables where the mock crime was carried out.
+In practice, how would an interviewer go about eliciting both avoidance and 
+denial strategies from liars? That is, how would one plan and pose a line of 
+questions that produces omissions and contradictions with facts from liars, 
+and forthcoming accounts from truth-tellers? One possible way in which omissions and contradictions about a given piece of evidence can be elicited 
+is to use a line of questioning with a funnel-like structure. At the top of the 
+funnel are the broadest possible questions, consisting of invitations to pro -
+vide information freely about the events or action in question. Closer to the 
+bottom of the funnel, there are questions about the critical information held 
+by the interviewer. Although this questioning method is not the only tactic 
+that can elicit omissions and contradictions, it is one that has begun to be 
+examined in recent SUE research (Luke 
+et al., in preparation).
+
+It may be useful to know that training in SUE principles and techniques to 
+plan and implement a line of questioning using the funnel approach can be 
+effective in improving the accuracy of truth and lie judgments. In a training 
+study, Hartwig et al. (2006) taught a group of law enforcement students how to 
+use the SUE approach and then tested their performance during an interview 
+where the aim was to determine whether a suspect was guilty or innocent 
+of a mock crime. Their performance was compared with a group of partici -
+pants who had not received the SUE training. The trained group differed from the untrained group in a number of important ways. First, the trained group was more likely to withhold the evidence during questioning. That 
+is, the untrained group disclosed evidence at earlier stages than the trained 
+group. Second, as recommended by the SUE approach, the trained group asked more specific questions about the background information, without 
+disclosing it. Importantly, the trained group produced far more statement–
+evidence inconsistencies from liars than did the untrained group. Finally, 
+the trained interviewers obtained an 85% hit rate in distinguishing between 
+truths and lies – a remarkable accuracy given that hit rates tend to be around chance level (Bond and DePaulo, 2006 ), with exceedingly small deviations 
+(Bond and DePaulo, 2008 ). The untrained interviewers’ accuracy rate was not 
+significantly different from chance performance. One might wonder whether 
+the poor performance in the untrained control group was due to their lack of 
+experience in interviewing. This does not seem like a plausible explanation: a study using a similar paradigm found that highly experienced interrogators 
+(with an average experience of conducting interrogations of 21.7 years) who 
+were not trained in the SUE approach also performed at chance level when questioning lying and truth-telling suspects (Hartwig 
+et al., 2004).
+Disclosure Tactics
+In some situations, an interviewer may want to disclose parts (or all) of the information at hand to the interviewee. This obviously does not apply to all 
+cases – for a number of reasons, an interviewer may be unwilling or sim -
+ply prohibited to do so due to the sensitivity of the information held (e.g., in intelligence-gathering contexts). The following section deals with those 
+situations in which the interviewer has decided that there may be reasons to disclose the evidence. What could such reasons be? Most obviously, if an
+
+TRANSLATING PSyCHOLOGICAL THEOR y INTO INTER vIEw TACTICS 21
+
+interviewer has conducted a line of questioning using the funnel structure 
+described above, it is plausible that liars may have offered statements that 
+violated facts. For example, after a series of increasingly specific questions 
+about his/her whereabouts, a liar might have denied being in city X, while 
+the interviewer has factual information (e.g., travel records) suggesting that 
+he/she indeed was in that city. Disclosing the information about the travel records could then serve to start a discussion about the cause of these dis-
+crepancies in the subject’s statement. Also, recent research indicates that such 
+an approach may cause the subject to be more forthcoming in subsequent interviews (Luke, 
+et al., in preparation).
+Research on the SUE framework has examined both the timing and manner of evidence disclosure. That is, when is it ideal to disclose the information, and 
+how (i.e., in what form) should this information be presented to produce the 
+most diagnostic outcomes? Starting with the timing issue, a series of studies have manipulated the point at which the information is disclosed to the subject 
+during interviewing. These studies consistently show that early disclosure of information is inferior to late disclosure, because the early disclosure assists the deceptive interviewee to incorporate the information into his/her account 
+(e.g., Clemens 
+et al., 2010; Hartwig et al., 2005, 2006, 2011; Jordan et al., 2012). 
+Simply put, early disclosure helps liars produce plausible denials (for a quanti -
+tative synthesis of this work, see below). More recently, research has examined other variations in timing (foreshadowed by Hartwig, 2005), such as drip-feed -
+ing of the available information (i.e., disclosure of one piece of information at a time throughout an interview). The results of these studies are mixed. Dando 
+and Bull (2011) found that disclosing the evidence either in a drip-feeding man -
+ner or at the end of the interview was more effective in detecting liars than dis -
+closing the same evidence early. They also found that disclosing the evidence in a drip-feeding fashion was more effective than disclosing the evidence late. 
+Unfortunately, Dando and Bull (2011) did not examine verbal cues to decep -
+tion, so on the basis of their results, it is difficult to know the effects of the varying disclosure tactics on liars’ and truth-tellers’ statements. In contrast, 
+Sorochinski 
+et al. (2013) found that withholding the evidence to the end (i.e., 
+late disclosure) produced more pronounced verbal differences between liars 
+and truth-tellers in the form of statement–evidence inconsistency, compared 
+with when the same evidence was released in a drip-feeding manner. In line
+
+with many other studies, early disclosure of information produced the weakest 
+cues to deception. In sum, while it is clear from past research that disclosure of 
+information in a late rather than early stage of an interview is more effective in 
+producing cues to deception, more research is needed in order to resolve the 
+issue of other evidence disclosure tactics such as drip-feeding.
+As for the manner in which the evidence is disclosed, recent SUE research 
+has offered a promising framework that may assist interviewers in strate -
+gic disclosure of evidence. In order to understand these strategic disclosure 
+methods and their effects on suspects’ statements, it must first be recognized 
+that a given piece of information can be framed, or presented, in a number 
+of different ways. For example, CCTV camera footage showing a person at 
+Grand Central Terminal in New York City can, in its most straightforward 
+way, be presented just as such (e.g., “We have CCTV footage showing that you visited Grand Central in New York recently”). However, the same piece 
+of information can also be presented in a more general way (e.g., “We have 
+information that you visited New York recently”). Granhag (2010) introduced 
+the so-called Evidence Framing Matrix in order to illuminate how pieces of information can be framed when they are presented during an interview. This matrix has two dimensions. The first dimension is the source of the informa -
+tion, which can vary from vague to precise. That is, how do we know what it is we know? Using the previous example, the source of the information (CCTV footage) can be presented either as a precise statement (the CCTV 
+footage itself) or as a more general statement (e.g., “information”). The sec -
+ond dimension is the framing of the evidence itself (i.e., what is it that we know), which can vary from general to specific. For example, the interviewer 
+can state that they know that the suspect has been in Grand Central Terminal or they can choose to present this information in a more general way (e.g., 
+that the suspect has been in the midtown area of Manhattan; or even more 
+generally, that he/she has been in New York City).
+How is this Evidence Framing Matrix to be used? The ultimate purpose of 
+the matrix is to structure evidence disclosure in a way that presents further 
+difficulties for liars to present credible statements. In order to understand 
+how this can be accomplished, recall the counter-interrogation strategies used by liars. Their aim is to conceal critical information and their strategies
+
+META -ANAL yTIC REvIEw OF SUE R ESEARCH 23
+
+revolve around ways to accomplish this – primarily through aversive strate-
+gies such as avoidance or denial. Imagine that a liar, who indeed did visit 
+Grand Central but is motivated to conceal this information, has produced an 
+account in which he/she denies being in the New York area altogether. If he/
+she is presented with the most vague, general framing of the evidence (“We 
+have information that you have actually been in New York”), he/she may revise his statement to include the information being presented, but still aim 
+to conceal the visit to Grand Central (e.g., “Now that you mention it, I did 
+visit New York, but I forgot to tell you because I was never in Manhattan – I only went to Brooklyn”). If he/she is then presented with more precise infor -
+mation about the nature of evidence (e.g., that there is evidence that he/she indeed was in Manhattan), he/she may be forced to revise his statement yet 
+again. The point is, simply put, to “make more” out of each piece of informa -
+tion by presenting it in an increasingly specific form.
+Generally speaking, the idea behind the Evidence Framing Matrix is thus to 
+further exploit the concealment strategies of liars in order to produce changes 
+or revisions in their story (labeled within-statement inconsistencies). In a 
+recent test of the Evidence Framing Matrix, Granhag 
+et al. (2013b) tested the 
+prediction that it may be more beneficial to begin with a general, vague fram -
+ing of the evidence and its source, and gradually proceed to more specific, precise framings. The results showed support for the prediction: when the 
+evidence was presented in an incremental fashion (going from general/vague 
+to specific/precise framing), the deceptive subject indeed revised his/her statements to make them fit with the evidence as it was presented. This posi -
+tive finding was replicated in a recent study by Granhag 
+et al. (2013a). Further 
+research on the Evidence Framing Matrix is needed, but the available research 
+suggests that it may be a useful tool to shed light on how a given piece of 
+information can be presented to an interviewee.
+META-ANALYTIC REVIEW OF SUE RESEARCH
+Above, we have discussed the theory behind the SUE technique, as well as 
+how it translates into particular interview tactics. But how effective is the SUE 
+approach at discriminating between truths and lies? Thus far, no quantitative
+
+META -ANAL yTIC REvIEw OF SUE R ESEARCH 29
+
+The meta-analysis of the difference of statement–evidence consistency 
+between innocent and guilty suspects’ statements when evidence was dis -
+closed late in an interview yielded a summary effect size of d = 1.89 (95% CI: 
+1.26–2.52). Although the 95% CIs overlap, this summary effect size for the 
+effectiveness of the SUE technique is substantially larger than the summary 
+effect size for non-SUE techniques. This summary effect size indicates that there is a strong tendency for guilty suspects to make statements that con -
+tradict the evidence when it is disclosed late in the interview. This tendency greatly exceeds the tendency for guilty suspects to make statements that con -
+tradict the evidence when evidence is disclosed early. There was significant 
+heterogeneity of effect sizes, Q (7) = 35.55, p < 0.001. Therefore, we conducted 
+the planned moderator analyses. Again, we did not conduct a moderator analysis to investigate if there were differences in effect sizes as a function of 
+whether the interviewers were part of the research team, as there was only one study in which non-researchers were used as interviewers.
+Discussion
+The results of this meta-analytic review strongly support the predictions of the SUE approach: guilty suspects have a tendency to make statements that 
+contradict evidence and this tendency is amplified when they are questioned 
+while uninformed about the evidence against them. The summary effect sizes 
+suggest that the late disclosure of evidence nearly doubles the magnitude of 
+this tendency by guilty suspects. This effect was not attenuated by any of the tested moderators, despite the fact that there was significant heterogeneity in 
+the effect sizes.
+Limitations
+Although this meta-analysis included all the known relevant studies per -
+taining to the late disclosure of evidence technique of the SUE approach, we tested a relatively small number of moderators. This somewhat limits the 
+explanatory power of the analysis. However, because this meta-analysis did 
+not include a very large number of studies, the appropriate data may not exist 
+to test the moderating effect of certain variables. For instance, to date, only one study testing the SUE approach has made use of interviewers who were 
+not members of the research team. Although using researcher interviewers
+
+assists in standardizing interview procedures and increases internal validity, 
+it limits the generalizability of the results. Additional research using non-
+researcher interviewers will be necessary in order to test if the effectiveness 
+of the SUE approach is impacted when the interviewers are not researchers. 
+The single study that used police recruits as interviewers produced some of 
+the largest effect sizes in the literature, so it may be possible that the labora -
+tory studies in which researchers have conducted scripted interviews have, 
+in fact, underestimated the effectiveness of SUE tactics in eliciting statement–
+evidence inconsistencies. As only one study using non-researcher interview -
+ers exists, however, it is impossible to conduct an appropriate meta-analytic 
+test of this possibility.
+Conclusions
+Overall, the results of this meta-analytic review are supportive of the SUE 
+approach. Considering the relatively large summary effect sizes that this 
+review yielded, it appears that there is a strong tendency for guilty suspects 
+to make statements that contradict known facts, compared with innocent sus -
+pects. This tendency, even when the evidence is disclosed to the suspect from the start of the interview, produces a large effect size for statement–evidence consistency as a cue to distinguish between innocent and guilty suspects. 
+When evidence is withheld from the suspect, this tendency to contradict the 
+evidence becomes even greater. Indeed, when evidence is withheld from the suspect, the statement–evidence consistency cue’s power to discriminate 
+between innocent and guilty suspects is several times greater than that of 
+the strongest cue to deception found by DePaulo 
+et al. (2003) (i.e., a global 
+impression of cooperativeness, d = –0.66).
+SUMMARY AND CONCLUDING REMARKS
+As we have discussed in this chapter, the SUE technique consists of a theo -
+retical level of reasoning regarding the state of mind in which liars and 
+truth-tellers approach an interview. This theoretical level is anchored in 
+foundational social cognitive theories of self-regulatory behavior. The 
+theoretical reasoning translates into predictions about different counter-
+interrogation strategies employed by liars and truth-tellers, which in turn translate into predictions about different patterns of verbal behavior
+
+REFERENCES 31
+
+during an interview. The SUE technique also consists of a number of spe -
+cific, concrete tactics for how to structure, plan, and pose questions in order 
+to produce cues to deception in the form of discrepancies with facts (i.e., 
+statement–evidence inconsistencies). Further, the technique offers recom-
+mendations for when and how to disclose the relevant information in order 
+to produce revisions in deceptive subjects’ accounts (i.e., within-statement inconsistencies). Thus, the SUE framework provides useful practical tools 
+for interviewers and also strengthens researchers’ theoretical understand -
+ing of the behavior of interviewees.
+The research on the SUE technique differs in important ways from much of 
+the research on deception conducted during the twentieth century. First, 
+it suggests that lie detection should go beyond mere passive observa -
+tion of the behavior of targets. Instead, lie-catchers need to take an active 
+role in order to create the basis for more accurate judgments of truth and 
+deception. Relatedly, the SUE approach emphasizes the strategic nature 
+of deception and its detection. That is, it views lie detection as a game, in 
+the sense that it involves the mutual use of strategies. Second, the major -
+ity of the earlier work on deception has reinforced the conclusion that 
+cues to deception are weak, and lie detection is difficult. We do not deny 
+that this is often the case. However, the SUE approach provides construc -
+tive guidelines for how to remedy for this by eliciting stronger cues to 
+deception.
+The research program on SUE is, as most research, a work in progress. There 
+are numerous questions left to explore regarding the effects and effective -
+ness of various strategic interview tactics. Although much work remains to 
+be done, thus far the SUE framework has been shown to be a scientifically 
+sound and effective method of eliciting cues to deception across a range of 
+populations and settings.
+REFERENCES
+An asterisk before a reference indicates inclusion in the meta-analysis.
+Averill, J.R., 1973. Personal control over aversive stimuli and its relationship to stress. 
+Psychological Bulletin 80, 286–303.
