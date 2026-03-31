@@ -602,14 +602,10 @@ def main() -> None:
     with transcript_col:
         render_transcript(state)
     with report_col:
+        render_final_report(state)
         if rag_was_used(state, backend_name):
-            final_report_col, rag_support_col = st.columns([1.2, 1.0], gap="medium")
-            with final_report_col:
-                render_final_report(state)
-            with rag_support_col:
-                render_rag_support(state)
-        else:
-            render_final_report(state)
+            st.divider()
+            render_rag_support(state)
 
 
 if __name__ == "__main__":
