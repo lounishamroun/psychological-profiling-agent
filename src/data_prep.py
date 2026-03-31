@@ -1,10 +1,12 @@
-"""
-Data loader: extract/clean PDF chapters, transform CSV to JSONL, load case/suspect JSON.
+"""Data prep: generate .txt and .jsonl files from raw sources.
 
-Consolidates all data preparation into one module:
-- extract_and_clean_pdfs()  → PDF pages → cleaned .txt in processed/
-- transform_csv_to_jsonl()  → CSV → enriched JSONL with PEACE/SUE metadata
-- load_json(path)           → load a JSON file (case or suspect)
+Consolidates data preparation into one module:
+- extract_and_clean_pdfs()  -> PDF pages -> cleaned .txt in processed/
+- transform_csv_to_jsonl()  -> CSV -> enriched JSONL with PEACE/SUE metadata
+- load_json(path)           -> load a JSON file (case or suspect)
+
+Note: The .md files in processed/ are hand-curated and versioned directly.
+This script only generates .txt and .jsonl files.
 """
 
 import os
@@ -102,12 +104,7 @@ def _extract_and_clean_pages(pdf_name: str, page_ranges: list[tuple[int, int]], 
 
 
 def extract_and_clean_pdfs():
-    """Extract and clean all relevant PDF chapters into processed/ .txt files.
-
-    NOTE: These .txt files are raw reference copies only. The RAG pipeline
-    (rag.py) indexes the hand-curated .md files in processed/, NOT these .txt.
-    Do not rely on this function alone to populate the RAG index.
-    """
+    """Extract and clean all relevant PDF chapters into processed/ .txt files."""
     os.makedirs(PROCESSED_DIR, exist_ok=True)
 
     pdf_jobs = [
@@ -136,16 +133,20 @@ def extract_and_clean_pdfs():
             [(1, 100)],
             "peace_method.txt",
         ),
+        (
+            "raid_technique.pdf",
+            [(1, 6)],
+            "Reid_technique_entretien_interrogatoire.txt",
+        ),
     ]
 
-    print(f"[data_prep] Extracting PDFs from {RAW_DIR}")
-    print("[data_prep] ⚠ These .txt are raw references only. RAG uses the .md files.")
+    print(f"[data_prep] Extracting PDFs → .txt in {PROCESSED_DIR}")
     for pdf_name, pages, out_name in pdf_jobs:
         _extract_and_clean_pages(pdf_name, pages, out_name)
 
 
 # ---------------------------------------------------------------------------
-# CSV → JSONL transformation (PEACE/SUE enrichment)
+# CSV -> JSONL transformation (PEACE/SUE enrichment)
 # ---------------------------------------------------------------------------
 
 def _classify_phase_peace(description: str) -> str:
