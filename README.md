@@ -1,4 +1,4 @@
-You can find the app here => https://psychological-profiling-agent-buerteruwp8dakoheqbt8a.streamlit.app/
+## **You can find the app here =>** https://psychological-profiling-agent-buerteruwp8dakoheqbt8a.streamlit.app/
 
 # ARIA — Adaptive Retrieval-Augmented Interrogation Agent
 
