@@ -1,11 +1,5 @@
 """
 Streamlit app for the interrogation simulator.
-
-Person C scope:
-- present the interrogation transcript,
-- show profiler metrics and charts,
-- display retrieved context and final report,
-- integrate with LangGraph/RAG when those modules are available.
 """
 
 from __future__ import annotations
