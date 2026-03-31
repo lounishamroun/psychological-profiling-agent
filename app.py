@@ -238,8 +238,10 @@ def run_with_langgraph(
     graph = build_graph(rag_collection)
     initial_state = build_initial_state(max_turns, suspect_path=suspect_path)
     result = graph.invoke(initial_state)
-    if rag_collection is None:
+    if not use_rag:
         return result, "LangGraph (RAG OFF)"
+    if rag_collection is None:
+        return result, "LangGraph (no RAG available)"
     return result, "LangGraph + RAG"
 
 
@@ -260,7 +262,9 @@ def run_with_local_fallback(
         state = merge_agent_updates(state, profiler_agent(state))
 
     state = merge_agent_updates(state, final_report_agent(state))
-    return state, "Sequential fallback"
+    if use_rag:
+        return state, "Sequential fallback (RAG unavailable)"
+    return state, "Sequential fallback (RAG OFF)"
 
 
 @observe(name="interrogation_session")
@@ -406,6 +410,8 @@ def initialize_session(suspect_options: dict[str, dict[str, Any]]) -> None:
         )
     if "backend_name" not in st.session_state:
         st.session_state.backend_name = "Not run yet"
+    if "use_rag" not in st.session_state:
+        st.session_state.use_rag = True
 
 
 def main() -> None:
@@ -433,10 +439,14 @@ def main() -> None:
             key="selected_suspect_path",
         )
         max_turns = st.slider("Number of turns", min_value=1, max_value=8, value=5)
-        use_rag = st.toggle("RAG enabled", value=True, help="Toggle retrieval-augmented generation on/off to compare results")
+        use_rag = st.toggle(
+            "RAG enabled",
+            key="use_rag",
+            help="Toggle retrieval-augmented generation on/off to compare results.",
+        )
         run_clicked = st.button("Run interrogation", type="primary", use_container_width=True)
         reset_clicked = st.button("Reset", use_container_width=True)
-        st.caption("The selected suspect is applied on the next run or reset.")
+        st.caption("The selected suspect and RAG mode are applied on the next run or reset.")
 
     if reset_clicked:
         st.session_state.simulation_state = build_initial_state(
