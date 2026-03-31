@@ -22,7 +22,20 @@ from src.utils import load_json
 
 BASE_DIR = Path(__file__).resolve().parent
 CASE_PATH = BASE_DIR / "data" / "cases" / "case_001.json"
-SUSPECT_PATH = BASE_DIR / "data" / "suspects" / "suspect_001.json"
+SUSPECTS_DIR = BASE_DIR / "data" / "suspects"
+
+
+def get_case_suffix(case_path: Path = CASE_PATH) -> str:
+    """Extract the numeric suffix from a case filename like case_001.json."""
+    return case_path.stem.split("_")[-1]
+
+
+def suspect_sort_key(suspect_path: Path) -> tuple[int, str]:
+    """Sort suspects by numeric index first, then by filename."""
+    parts = suspect_path.stem.split("_")
+    if len(parts) > 1 and parts[1].isdigit():
+        return int(parts[1]), suspect_path.stem
+    return 9999, suspect_path.stem
 
 def configure_page() -> None:
     """Set page metadata and inject a small visual system."""
@@ -34,45 +47,98 @@ def configure_page() -> None:
     st.markdown(
         """
         <style>
+        :root {
+            color-scheme: dark;
+        }
         .stApp {
             background:
-                radial-gradient(circle at top left, rgba(29, 78, 216, 0.10), transparent 32%),
-                radial-gradient(circle at top right, rgba(234, 88, 12, 0.10), transparent 28%),
-                #f5f7fb;
+                radial-gradient(circle at top left, rgba(59, 130, 246, 0.18), transparent 28%),
+                radial-gradient(circle at top right, rgba(249, 115, 22, 0.14), transparent 24%),
+                linear-gradient(180deg, #030712 0%, #020617 48%, #000000 100%);
+            color: #e5e7eb;
+        }
+        [data-testid="stAppViewContainer"],
+        [data-testid="stHeader"] {
+            background: transparent;
+        }
+        [data-testid="stSidebar"] {
+            background:
+                linear-gradient(180deg, rgba(15, 23, 42, 0.96), rgba(2, 6, 23, 0.98));
+            border-right: 1px solid rgba(148, 163, 184, 0.18);
+        }
+        .stApp h1,
+        .stApp h2,
+        .stApp h3,
+        .stApp p,
+        .stApp label,
+        .stApp span,
+        .stApp div {
+            color: inherit;
+        }
+        [data-testid="stMetric"],
+        [data-testid="stAlert"],
+        .stExpander,
+        [data-testid="stVerticalBlockBorderWrapper"] {
+            background: rgba(15, 23, 42, 0.62);
+            border: 1px solid rgba(148, 163, 184, 0.16);
+            border-radius: 16px;
+            box-shadow: 0 12px 34px rgba(0, 0, 0, 0.28);
+        }
+        [data-testid="stMetric"] {
+            padding: 0.75rem 0.9rem;
+        }
+        [data-testid="stMetricLabel"],
+        [data-testid="stMetricValue"] {
+            color: #f8fafc;
+        }
+        [data-baseweb="base-input"],
+        [data-baseweb="select"] > div,
+        .stSlider {
+            background: rgba(15, 23, 42, 0.66);
+            color: #f8fafc;
         }
         .role-card {
             border-radius: 16px;
             padding: 1rem 1.1rem;
             margin-bottom: 0.85rem;
-            border: 1px solid rgba(15, 23, 42, 0.08);
-            box-shadow: 0 8px 24px rgba(15, 23, 42, 0.05);
+            border: 1px solid rgba(148, 163, 184, 0.18);
+            box-shadow: 0 10px 28px rgba(0, 0, 0, 0.24);
         }
         .role-card.inspector {
-            background: linear-gradient(135deg, #eff6ff, #dbeafe);
-            border-left: 6px solid #1d4ed8;
+            background: linear-gradient(135deg, rgba(30, 41, 59, 0.95), rgba(15, 23, 42, 0.92));
+            border-left: 6px solid #3b82f6;
         }
         .role-card.suspect {
-            background: linear-gradient(135deg, #fff7ed, #ffedd5);
-            border-left: 6px solid #ea580c;
+            background: linear-gradient(135deg, rgba(41, 21, 12, 0.96), rgba(28, 25, 23, 0.92));
+            border-left: 6px solid #f97316;
         }
         .role-label {
             font-size: 0.8rem;
             text-transform: uppercase;
             letter-spacing: 0.08em;
             font-weight: 700;
-            color: #334155;
+            color: #cbd5e1;
             margin-bottom: 0.3rem;
         }
         .role-content {
-            color: #0f172a;
+            color: #f8fafc;
             line-height: 1.55;
         }
         .context-box {
             border-radius: 14px;
             padding: 0.9rem 1rem;
-            background: #ffffff;
-            border: 1px solid rgba(15, 23, 42, 0.08);
+            background: rgba(15, 23, 42, 0.72);
+            border: 1px solid rgba(148, 163, 184, 0.18);
             margin-bottom: 0.75rem;
+        }
+        .stButton > button {
+            background: linear-gradient(135deg, #1d4ed8, #2563eb);
+            color: #f8fafc;
+            border: 1px solid rgba(96, 165, 250, 0.28);
+        }
+        .stButton > button[kind="secondary"] {
+            background: rgba(15, 23, 42, 0.78);
+            color: #e5e7eb;
         }
         </style>
         """,
@@ -80,11 +146,36 @@ def configure_page() -> None:
     )
 
 
-def build_initial_state(max_turns: int) -> dict[str, Any]:
+def get_available_suspects(case_path: Path = CASE_PATH) -> dict[str, dict[str, Any]]:
+    """Load suspects that belong to the current case and build labels."""
+    case_suffix = get_case_suffix(case_path)
+    suspects: dict[str, dict[str, Any]] = {}
+    pattern = f"suspect_*_{case_suffix}_*.json"
+    for suspect_path in sorted(SUSPECTS_DIR.glob(pattern), key=suspect_sort_key):
+        profile = load_json(str(suspect_path))
+        suspects[str(suspect_path)] = {
+            "path": suspect_path,
+            "profile": profile,
+            "label": (
+                f"{profile.get('name', suspect_path.stem)}"
+                f" - {profile.get('occupation', 'Unknown role')}"
+            ),
+        }
+    return suspects
+
+
+def build_initial_state(max_turns: int, suspect_path: Path | None = None) -> dict[str, Any]:
     """Create the initial interrogation state used by both execution modes."""
+    if suspect_path is None:
+        available_suspects = get_available_suspects()
+        if not available_suspects:
+            raise FileNotFoundError("No suspect files found for the current case.")
+        selected_suspect_path = next(iter(available_suspects.values()))["path"]
+    else:
+        selected_suspect_path = suspect_path
     return {
         "case_data": load_json(str(CASE_PATH)),
-        "suspect_profile": load_json(str(SUSPECT_PATH)),
+        "suspect_profile": load_json(str(selected_suspect_path)),
         "conversation_history": [],
         "retrieved_context": [],
         "last_question": "",
@@ -130,7 +221,10 @@ def load_backend_functions() -> tuple[Callable[..., Any] | None, Callable[..., A
     return build_graph, build_index
 
 
-def run_with_langgraph(max_turns: int) -> tuple[dict[str, Any], str]:
+def run_with_langgraph(
+    max_turns: int,
+    suspect_path: Path | None = None,
+) -> tuple[dict[str, Any], str]:
     """Run the interrogation through the official graph if it is available."""
     build_graph, build_index = load_backend_functions()
     if not callable(build_graph):
@@ -138,16 +232,19 @@ def run_with_langgraph(max_turns: int) -> tuple[dict[str, Any], str]:
 
     rag_collection = build_index() if callable(build_index) else None
     graph = build_graph(rag_collection)
-    initial_state = build_initial_state(max_turns)
+    initial_state = build_initial_state(max_turns, suspect_path=suspect_path)
     result = graph.invoke(initial_state)
     if rag_collection is None:
         return result, "LangGraph (no RAG yet)"
     return result, "LangGraph + RAG"
 
 
-def run_with_local_fallback(max_turns: int) -> tuple[dict[str, Any], str]:
+def run_with_local_fallback(
+    max_turns: int,
+    suspect_path: Path | None = None,
+) -> tuple[dict[str, Any], str]:
     """Run a simple sequential loop so the UI stays usable before full integration."""
-    state = build_initial_state(max_turns)
+    state = build_initial_state(max_turns, suspect_path=suspect_path)
 
     for _ in range(max_turns):
         state["retrieved_context"] = []
@@ -159,12 +256,15 @@ def run_with_local_fallback(max_turns: int) -> tuple[dict[str, Any], str]:
     return state, "Sequential fallback"
 
 
-def run_interrogation(max_turns: int) -> tuple[dict[str, Any], str]:
+def run_interrogation(
+    max_turns: int,
+    suspect_path: Path | None = None,
+) -> tuple[dict[str, Any], str]:
     """Prefer the shared graph, otherwise fall back to a simple local execution mode."""
     try:
-        return run_with_langgraph(max_turns)
+        return run_with_langgraph(max_turns, suspect_path=suspect_path)
     except Exception:
-        return run_with_local_fallback(max_turns)
+        return run_with_local_fallback(max_turns, suspect_path=suspect_path)
 
 
 def history_to_chart_rows(profiler_history: list[dict[str, Any]]) -> list[dict[str, float]]:
@@ -238,10 +338,15 @@ def render_sidebar(state: dict[str, Any], backend_name: str) -> None:
                 st.write("No retrieved context available in the current run.")
 
 
-def render_header(case_data: dict[str, Any]) -> None:
+def render_header(case_data: dict[str, Any], suspect_profile: dict[str, Any]) -> None:
     """Render the top-of-page case context."""
     st.title("Multi-Agent AI Interrogation Simulator")
     st.caption("Inspector vs Suspect with live behavioral profiling.")
+    st.markdown(
+        "**Selected suspect:** "
+        f"{suspect_profile.get('name', 'Unknown suspect')} "
+        f"({suspect_profile.get('occupation', 'Unknown occupation')})"
+    )
 
     facts = case_data.get("key_facts", [])
     with st.container():
@@ -275,10 +380,18 @@ def render_final_report(state: dict[str, Any]) -> None:
         st.info("The final report will appear here after the simulation completes.")
 
 
-def initialize_session() -> None:
+def initialize_session(suspect_options: dict[str, dict[str, Any]]) -> None:
     """Ensure required session keys exist."""
+    default_suspect_path = next(iter(suspect_options))
+    if "selected_suspect_path" not in st.session_state:
+        st.session_state.selected_suspect_path = default_suspect_path
+    elif st.session_state.selected_suspect_path not in suspect_options:
+        st.session_state.selected_suspect_path = default_suspect_path
     if "simulation_state" not in st.session_state:
-        st.session_state.simulation_state = build_initial_state(max_turns=5)
+        st.session_state.simulation_state = build_initial_state(
+            max_turns=5,
+            suspect_path=Path(st.session_state.selected_suspect_path),
+        )
     if "backend_name" not in st.session_state:
         st.session_state.backend_name = "Not run yet"
 
@@ -286,25 +399,46 @@ def initialize_session() -> None:
 def main() -> None:
     """Run the Streamlit app."""
     configure_page()
-    initialize_session()
 
+    suspect_options = get_available_suspects()
+    if not suspect_options:
+        st.error("No suspect files found for the current case in data/suspects.")
+        st.stop()
+    initialize_session(suspect_options)
+
+    selected_suspect_path = st.session_state.selected_suspect_path
+    selected_suspect_profile = suspect_options[selected_suspect_path]["profile"]
     case_data = st.session_state.simulation_state["case_data"]
-    render_header(case_data)
+    render_header(case_data, selected_suspect_profile)
 
     with st.sidebar:
         st.subheader("Controls")
+        selected_suspect_path = st.selectbox(
+            "Suspect to interrogate",
+            options=list(suspect_options),
+            index=list(suspect_options).index(st.session_state.selected_suspect_path),
+            format_func=lambda suspect_key: suspect_options[suspect_key]["label"],
+            key="selected_suspect_path",
+        )
         max_turns = st.slider("Number of turns", min_value=1, max_value=8, value=5)
         run_clicked = st.button("Run interrogation", type="primary", use_container_width=True)
         reset_clicked = st.button("Reset", use_container_width=True)
+        st.caption("The selected suspect is applied on the next run or reset.")
 
     if reset_clicked:
-        st.session_state.simulation_state = build_initial_state(max_turns=max_turns)
+        st.session_state.simulation_state = build_initial_state(
+            max_turns=max_turns,
+            suspect_path=Path(selected_suspect_path),
+        )
         st.session_state.backend_name = "Not run yet"
 
     if run_clicked:
         with st.spinner("Running interrogation..."):
             try:
-                state, backend_name = run_interrogation(max_turns=max_turns)
+                state, backend_name = run_interrogation(
+                    max_turns=max_turns,
+                    suspect_path=Path(selected_suspect_path),
+                )
             except Exception as exc:
                 st.error(f"Simulation failed: {exc}")
             else:
