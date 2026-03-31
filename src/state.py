@@ -17,6 +17,9 @@ class InterrogationState(TypedDict):
     # RAG results (replaced each turn with fresh retrieval)
     retrieved_context: list
 
+    # Behavioral examples from dataset for the Profiler (replaced each turn)
+    profiler_context: list
+
     # Current turn data (overwritten each turn)
     last_question: str
     last_answer: str

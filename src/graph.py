@@ -38,14 +38,19 @@ def _make_retrieve_node(rag_collection):
         # Try to get docs from RAG, skip if no collection is set up yet
         if rag_collection is not None:
             try:
-                from src.rag import retrieve
+                from src.rag import retrieve, retrieve_behavioral_examples
                 docs = retrieve(rag_collection, query, k=3)
+                # Get behavioral examples for the profiler based on suspect's last answer
+                profiler_query = state.get("last_answer", "") or query
+                profiler_docs = retrieve_behavioral_examples(rag_collection, profiler_query, k=3)
             except Exception:
                 docs = []
+                profiler_docs = []
         else:
             docs = []
+            profiler_docs = []
 
-        return {"retrieved_context": docs}
+        return {"retrieved_context": docs, "profiler_context": profiler_docs}
 
     return retrieve_context
 

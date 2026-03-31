@@ -64,12 +64,19 @@ Full conversation so far:
 Last question by inspector: {last_question}
 Last answer by suspect: {last_answer}
 
+Reference behavioral examples from past interrogations:
+{profiler_context}
+
+Use the reference examples above to calibrate your analysis. Compare the suspect's answer patterns (denial, evasion, truthfulness) with known behavioral indicators.
+
 Analyze the suspect's latest answer and output a JSON object with EXACTLY these fields:
 - "stress_level": float 0.0 to 1.0 (how stressed the suspect appears)
 - "evasion_score": float 0.0 to 1.0 (how much the suspect avoided the question)
 - "consistency_score": float 0.0 to 1.0 (1.0 = fully consistent with previous answers)
-- "suspicion_score": float 0.0 to 1.0 (overall suspicion level)
+- "suspicion_score": float 0.0 to 1.0 (overall behavioral suspicion based on how the suspect behaves and on the case context)
 - "reason": string with a brief explanation (1-2 sentences)
+
+IMPORTANT: The suspicion_score must be derived from the suspect's actual behavior during the interrogation (stress, evasion, inconsistencies). A suspect who is calm, cooperative, consistent, and provides detailed verifiable information should have a LOW suspicion_score, regardless of why they were brought in. Do not inflate suspicion just because someone is being interrogated.
 
 Output ONLY valid JSON. No markdown, no explanation, no code blocks."""
 

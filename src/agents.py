@@ -56,11 +56,14 @@ def suspect_agent(state: InterrogationState) -> dict:
 
 def profiler_agent(state: InterrogationState) -> dict:
     """Analyze the suspect's answer and return structured metrics."""
+    profiler_ctx = state.get("profiler_context", [])
+    profiler_context_str = "\n---\n".join(profiler_ctx) if profiler_ctx else "Aucun exemple disponible"
     prompt = PROFILER_PROMPT.format(
         case_data=json.dumps(state["case_data"], indent=2),
         conversation_history=format_conversation(state.get("conversation_history", [])),
         last_question=state["last_question"],
         last_answer=state["last_answer"],
+        profiler_context=profiler_context_str,
     )
     raw = call_llm(prompt)
     profiler_output = parse_json_response(raw)

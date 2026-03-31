@@ -142,6 +142,18 @@ def retrieve(collection: chromadb.Collection, query: str, k: int = 3) -> list[st
     documents = results.get("documents", [[]])
     return documents[0] if documents else []
 
+def retrieve_behavioral_examples(collection: chromadb.Collection, query: str, k: int = 3) -> list[str]:
+    """Retrieve behavioral examples from the JSONL dataset for the Profiler.
+
+    Filters on source='dataset' so we only get Q/R examples, not tactical docs.
+    """
+    results = collection.query(
+        query_texts=[query],
+        n_results=k,
+        where={"source": "dataset"},
+    )
+    documents = results.get("documents", [[]])
+    return documents[0] if documents else []
 
 # ---------------------------------------------------------------------------
 # Quick smoke test

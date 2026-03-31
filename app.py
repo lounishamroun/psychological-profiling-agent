@@ -178,6 +178,7 @@ def build_initial_state(max_turns: int, suspect_path: Path | None = None) -> dic
         "suspect_profile": load_json(str(selected_suspect_path)),
         "conversation_history": [],
         "retrieved_context": [],
+        "profiler_context": [],
         "last_question": "",
         "last_answer": "",
         "profiler_output": {},
@@ -248,6 +249,7 @@ def run_with_local_fallback(
 
     for _ in range(max_turns):
         state["retrieved_context"] = []
+        state["profiler_context"] = []
         state = merge_agent_updates(state, inspector_agent(state))
         state = merge_agent_updates(state, suspect_agent(state))
         state = merge_agent_updates(state, profiler_agent(state))

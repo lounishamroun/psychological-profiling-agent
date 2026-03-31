@@ -300,13 +300,13 @@ _MD_GENERATION_PROMPT = """
 Tu es un expert en techniques d'interrogatoire et d'entretien investigatif.
 Tu reçois un texte brut extrait d'un document académique ou professionnel sur les techniques d'entretien.
 
-Ta tâche : restructure ce contenu en un document Markdown bien organisé, en français, destiné à alimenter un système RAG pour aider un inspecteur lors d'un interrogatoire.
+Ta tâche : restructure ce contenu en un document Markdown bien organisé, en anglais, destiné à alimenter un système RAG pour aider un inspecteur lors d'un interrogatoire.
 
 Règles strictes :
 - Utilise des headers Markdown : # pour le titre principal, ## pour les sections, ### pour les sous-sections
 - Garde uniquement le contenu tactique et opérationnel utile (phases, techniques, signaux comportementaux, stratégies)
 - Supprime les références bibliographiques, introductions académiques, remerciements, tables des matières
-- Rédige en français clair et concis, même si le texte source est en anglais
+- Rédige en anglais clair et concis, même si le texte source est en anglais
 - N'ajoute PAS de commentaire introductif ou de conclusion — commence directement par le titre `#`
 - Les sections doivent être autonomes et compréhensibles sans contexte supplémentaire
 - Conserve l'intégralité du contenu tactique et opérationnel — ne résume pas, ne tronque pas
