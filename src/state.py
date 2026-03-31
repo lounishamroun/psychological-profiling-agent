@@ -20,6 +20,9 @@ class InterrogationState(TypedDict):
     # Behavioral examples from dataset for the Profiler (replaced each turn)
     profiler_context: list
 
+    # RAG snapshots kept across turns for UI explainability
+    rag_history: Annotated[list, operator.add]
+
     # Current turn data (overwritten each turn)
     last_question: str
     last_answer: str
