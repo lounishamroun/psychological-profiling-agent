@@ -1,0 +1,539 @@
+of the United Nations Convention Against Torture 
+
+Les Principes Méndez relatifs aux 
+entretiens efficaces: un outil pour la 
+mise en œuvre de la Convention des 
+Nations Unies contre la torture 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+of the United Nations Convention Against Torture 
+
+ Introduction 
+Le droit international interdit la torture et les mauvais traitements de façon absolue1. Pourtant, 
+ces actes demeurent courants et répandus dans le monde entier. En particulier, la torture, les 
+mauvais traitements ou la coercition sont fréquemment utilisés lors de l'interrogatoire de 
+personnes soupçonnées d’une infraction, et dans le but d'o btenir des aveux ou des 
+déclarations contre d'autres individus2. 
+Partant de ce constat, en 2016, l'ancien Rapporteur spécial des Nations unies sur la torture, 
+Juan E. Méndez, a appelé à l'élaboration d'un « ensemble de normes qui régissent des 
+méthodes d’interrogatoire non coercitives et des garanties procédurales qui devraient être 
+appliquées à la fois de plein droit et dans les différentes politiques, a minima à tous les 
+interrogatoires menés par les responsables de l’application de la loi, le personnel des organes 
+militaires et des services de renseignement et autres organes chargés d’enquêter.3 » 
+Les Principes relatifs aux entretiens efficaces dans le cadre d’enquêtes et de collecte 
+d'informations également connus sous le nom de « Principes Méndez »4, sont le fruit de cet 
+appel. C e texte, qui inclut six principes fondamentaux, a été finalisé en mai 2021, à l'issue d'un 
+processus de rédaction de quatre ans, piloté par des experts, avec le soutien de l'Association 
+pour la prévention de la torture (APT), de l'Initiative anti -torture (ATI) et du Centre norvégien 
+des droits de l'homme (NCHR)5. 
+Les Principes Méndez proposent une alternative aux interrogatoires coercitifs et basés sur 
+l’obtention d’aveux. Ils encouragent les entretiens fondés sur l’établissement d’une relation, et 
+ils reposent sur la mise en œuvre de garanties fondamentales qui doivent être respectées au 
+cours des enquêtes de la justice pénale et d'autres formes de processus de collecte 
+d'informations. En tant que tels, ils offrent des orientations aux responsables politiques et aux 
+décideur ·euse· s sur la conduite d'entretiens efficaces qui évitent le recours à la torture et aux 
+mauvais traitements. Dans le même temps, ces Principes renforcent l’efficacité des enquêtes 
+et la prévention des crimes et permettent aux autorités étatiques de respecter les obligations 
+découlant du droit international des droits humains6. 
+Les Principes constituent une référence cruciale pour la mise en œuvre de la Convention des 
+Nations Unies contre la torture (UNCAT). La Convention contient des obligations générales de 
+respecter et de protéger le droit de tout individu à ne pas être soumis à la torture et aux 
+mauvais traitements, ainsi que des obligations spécifiques de prendre des mesures efficaces 
+pour prévenir es actes de torture et les mauvais traitements7. 
+Le présent document se fonde sur une analyse des obligations générales et spécifiques de 
+l'UNCAT en matière de prévention, et sur la pratique du Comité des Nations Unies contre la 
+torture (CAT)8. Il décrit le rôle essentiel que jouent ces Principes pour aider les États parties à 
+respecter leurs obligations en vertu des articles 2(1) et 16(1), 11, 10(1), et 15 de l'UNCAT en 
+particulier.
+
+of the United Nations Convention Against Torture 
+
+ Ce document s'adresse en premier lieu aux autorités étatiques chargées de mettre en œuvre 
+les obligations de l'UNCAT, que ce soit au niveau exécutif, législatif ou judiciaire. Ce document 
+peut également s’avérer utile aux organisations de la société civile et autres parties prenantes 
+concernées et leur permettre de mener des actions de sensibilisation sur la manière de mettre 
+en œuvre l'UNCAT et, le cas échéant, de plaider pour un meilleur respect par les États parties 
+des obligations qui y sont incluses. 
+ 
+I. Les Principes Méndez contribuent au respect de 
+l'obligation d’empêcher la torture et les mauvais 
+traitements en vertu des articles 2(1) et 16(1) de 
+l'UNCAT 
+ 
+En vertu de l'article 2(1) de l'UNCAT, tout État partie est tenu de prendre « des mesures 
+législatives, administratives, judiciaires et autres mesures efficaces pour empêcher que des 
+actes de torture soient commis dans tout territoire sous sa juridiction. 9 » Dans le même ordre 
+d'idées, l'article 16(1) de l'UNCAT exige de tout État partie qu’il interdise « dans tout territoire 
+sous sa juridiction d'autres actes constitutifs de peines ou traitements cruels, inhumains ou 
+dégradants.10 » 
+Dans son Observation générale n°2, le CAT a déclaré que les États parties sont tenus 
+« d’adopter des mesures efficaces pour empêcher que des agents publics ou toute autre 
+personne agissant à titre officiel ne commettent personnellement des actes de torture tels 
+qu’ils sont définis par la Convention, ne poussent ou n’incitent quiconque à les commettre, ne 
+soient impliqués dans des actes de cette nature ou y participent, ou encore ne les encouragent 
+ou n’y consentent .11 » En outre, le CAT a souligné que les États sont responsables non 
+seulement des actes et omissions de leurs agent ·e·s, mais aussi de ceux d'autres acteur ·rice·s , 
+telles que les agent ·e·s , les entrepreneur ·euse· s privé ·e·s « ainsi que de toute personne agissant 
+à titre officiel, au nom de l’État ou en liaison avec celui -ci, sous sa direction ou son contrôle, 
+ou encore au nom de la loi 12 ». 
+En ce qui concerne le type de mesures à adopter afin de prévenir la torture et les mauvais 
+traitements conformément aux articles 2(1) et 16(1), la pratique générale du CAT est de 
+recommander aux États parties de prendre une combinaison de mesures - c'est-à-dire un 
+éventail de mesures législatives, administratives, judiciaires et de mise en œuvre pratique – 
+afin d’assurer notamment l’efficacité de leur action dans ce domaine13. 
+Dans le cadre de l'obligation de prévenir la torture ou les mauvais traitements, le CAT a 
+également souligné la nécessité pour les États parties de mettre en place des garanties 
+procédurales au moment de l'arrestation, de l'interrogatoire et de la détentio n d’un individu 
+afin de respecter efficacement leurs obligations de prévention14. En outre, le CAT a
+
+of the United Nations Convention Against Torture 
+
+ recommandé que des mesures spécifiques soient prises afin de protéger les personnes en 
+situation de vulnérabilité et de risque accru de torture ou d'autres formes de mauvais 
+traitements15. 
+Si le CAT a énuméré de nombreuses mesures permettant aux États parties de prévenir 
+efficacement la torture et les mauvais traitements, il a également souligné que ces mesures ne 
+sauraient faire l’objet d’une liste exhaustive16. Ainsi, dans la mesure où les méthodes de 
+prévention sont en constante évolution, le Comité considère l'article 2 de l'UNCAT permet 
+d'étendre la portée des mesures nécessaires pour prévenir la torture en s'appuyant sur d'autres 
+articles17. 
+Dans ce contexte, les Principes Méndez constituent un cadre de référence particulièrement 
+utile afin de permettre aux États parties de s'acquitter efficacement de leurs obligations de 
+prévention en vertu des articles 2(1) et 16(1) de l'UNCAT, et ce pour di verses raisons. 
+ 
+ 
+Les Principes proposent des orientations complètes pour 
+adopter des mesures efficaces 
+Tout d'abord, les Principes Méndez proposent des orientations concrètes et complètes aux 
+États parties pour qu'ils prennent des mesures législatives, administratives, judiciaires ou 
+autres mesures efficaces permettant de mener, sur tout territoire releva nt de leur juridiction, 
+des entretiens d’enquête sans recourir à la torture et aux mauvais traitements. Par conséquent, 
+avec leur approche pratique et orientée vers les solutions, les Principes constituent un 
+référence qui aide les États parties à mettre en œuvre les recommandations et les observations 
+finales pertinentes du CAT. 
+Il est important de noter que, dans le cadre de cette approche globale, les orientations fournies 
+dans les Principes s'appliquent à tous les contextes d'enquête, y compris ceux relevant de la 
+justice pénale et de la sécurité nationale, ainsi qu'à toutes le s catégories de personnes 
+auditionnées (qu’il s’agisse de personnes soupçonnées d’une infraction, de témoins, de 
+victimes ou de toute autre personne auditionnée)18. De plus, les Principes se fondent tout à la 
+fois sur les normes de droit, les éléments de preuve empiriques et sur les conclusions de la 
+recherche scientifique concernant les méthodes d'interrogatoire qui permettent le plus 
+efficacement d'obtenir des in formations précises et fiables19. Ils aident ainsi les autorités 
+étatiques à mettre en œuvre des mesures globales et institutionnelles qui contribuent à 
+prévenir la torture et les mauvais traitements, conformément aux obligations de l'UNCAT. 
+ 
+Les Principes se focalisent sur les garanties fondamentales à 
+mettre en œuvre durant les premières heures de la garde à vue
+
+of the United Nations Convention Against Torture 
+
+ Deuxièmement, les Principes de Méndez traitent de la protection à assurer durant les 
+premières heures de la garde à vue, période pendant laquelle le risque de torture et de mauvais 
+traitements est le plus élevé. De ce fait, les Principes soulignent l'importance de mettre en 
+œuvre des garantie s juridiques et procédurales tout au long du processus d'entretien20. Ainsi, 
+conformément à la pratique du CAT décrite ci -dessus, les Principes soulignent la nécessité 
+pour les autorités d'assurer la mise en œuvre effective des garanties procédurales avant, 
+pendant et après l'entretien. Ces garanties contribuent à assurer le respect d'un traitement 
+équitable dès le premier contact entre les autorités et la personne auditionnée, ainsi que tout 
+au long de la collecte d'informations et des procédures judiciaires (Principe 2)21. 
+ 
+Les Principes sont axés sur les personnes en situation de 
+vulnérabilité 
+en situation de vulnérabilité (Principe 3)22. Partant du constat que tout entretien place la 
+personne auditionnée dans une situation de vulnérabilité en raison d’un rapport de force 
+intrinsèquement inégal23, les Principes proposent des indications sur les méthodes d'entretien 
+susceptibles de prévenir les risques de torture et de mauvais traitements, conformément aux 
+obligations de l'UNCAT. 
+Reflétant la pratique du CAT mentionnée ci -dessus, les Principes soulignent l'importance 
+d'évaluer les besoins et les droits spécifiques des personnes en situation de vulnérabilité 
+accrue (en raison de leur âge, sexe, identité de genre, nationalité ou orig ine ethnique, situation 
+de handicap et autres facteurs de risque)24. En outre, les Principes recommandent aux autorités 
+de répondre à tout besoin spécifique de la personne auditionnée, en proposant des 
+orientations concrètes aux autorités sur la manière de mener ce type d'entretiens25. 
+ 
+II. Les Principes de Méndez contribuent au respect de 
+l'obligation de surveiller systématiquement les 
+règles, les instructions, les méthodes et les pratiques 
+d'interrogatoire en vertu de l'article 11 de l’UNCAT. 
+ 
+L'article 11 de l'UNCAT précise que : « Tout État partie exerce une surveillance systématique 
+sur les règles, instructions, méthodes et pratiques d'interrogatoire et sur les dispositions 
+concernant la garde et le traitement des personnes arrêtées, détenues ou emprisonnées de 
+quelque façon que ce soit sur tout territoire sous sa juridiction, en vue d'éviter tout cas de 
+torture. » 
+Cette disposition constitue l'une des garanties les plus importantes pour la prévention de la 
+torture et des mauvais traitements26. En particulier, en imposant aux États parties l'obligation
+
+of the United Nations Convention Against Torture 
+
+ de surveiller systématiquement leurs règles et pratiques en matière d'interrogatoire, l'article 
+11 joue un rôle clé dans la mise en œuvre pratique des obligations de prévention prévues par 
+les articles 2(1) et 16(1) de l'UNCAT27. 
+Deux éléments principaux sont au cœur de cette disposition. Premièrement, comme l'a 
+souligné le CAT, les États parties ont l'obligation de mettre en place un système de surveillance 
+et d'inspection régulier et indépendant de tous les lieux de détention28, tel que celui prévu par 
+le Protocole facultatif à la Convention contre la torture (OPCAT) . Deuxièmement, puisque cette 
+« surveillance systématique » vise à éviter tout cas de torture, les règles et pratiques d'un État 
+doivent respecter les normes procédurales et substantielles applicables aux méthodes 
+d'interrogatoire, aux conditions de détentio n et au traitement des personnes privées de liberté 
+en général29. 
+À la lumière de ce qui précède, le CAT a élaboré une riche jurisprudence sur les normes de 
+surveillance requises en ce qui concerne les personnes privées de liberté, y compris dans le 
+contexte des interrogatoires. En particulier, le CAT a souligné l'import ance de l'application de 
+garanties spécifiques dès le début de la garde à vue, et notamment 
+(i) le droit d’être informé ·e au moment de l'arrestation sur ses droits, les raisons de 
+l'arrestation et les charges éventuelles30 ; 
+(ii) le droit d'informer un ·e parent ·e ou un tiers de la détention31 ; 
+(iii) le droit de garder le silence32 ; 
+(iv) le droit d'accès à un ·e avocat ·e33 ; 
+(v) le droit d'accès à un ·e médecin et à un examen médical indépendant34 ; 
+(vi) le droit d'être traduit ·e dans les plus brefs délais devant un ·e juge ou une autre 
+autorité judiciaire35 ; 
+(vii) le droit d’être inscrit ·e au registre des personnes détenues36. 
+En ce qui concerne les interrogatoires, le CAT précise, en outre, que tous les interrogatoires 
+devraient faire l’objet d’un enregistrement audio et vidéo37. En outre, tout en condamnant 
+l'utilisation de « règles d'interrogatoire créant la confusion » et de techniques définies en 
+termes vagues et généraux, le CAT a exhorté les États parties à interdire toutes les techniques 
+d'interrogatoire qui constituent de s actes de torture ou des mauvais traitements dans tous les 
+lieux de détention. 
+En outre, le CAT a exhorté les États à « améliorer les méthodes d’enquête pénale pour mettre 
+fin aux pratiques par lesquelles les aveux constituent la preuve principale et centrale dans les 
+poursuites pénales, parfois en l’absence de tout autre moyen de pr euve 38 ». 
+En soulignant l'efficacité des entretiens menés de manière adéquate et l'importance des 
+garanties juridiques et procédurales, les Principes Méndez répondent à l'obligation de l'article 
+11 de l'UNCAT39. En effet, « la principale garantie contre les mauvais traitements lors des 
+interrogatoires étant la méthode d’entrevue elle -même40 », les Principes reconnaissent non
+
+of the United Nations Convention Against Torture 
+
+ seulement que la surveillance systématique des règles et des pratiques d'interrogatoire 
+constitue un élément clé pour prévenir efficacement la torture et les mauvais traitements, mais 
+ils offrent également une approche concrète, pratique et efficace pour c onduire les 
+interrogatoires. 
+Tout d'abord, les Principes proposent des alternatives aux interrogatoires coercitifs fondés sur 
+des éléments de preuve41, en combinant de manière unique des techniques d'entretien 
+efficaces avec la mise en œuvre de garanties juridiques et procédurales. Les Principes aident 
+ainsi les autorités à faire évoluer les mentalités et à abandonner les pratiques et cultures 
+instituti onnelles axées sur l’obtention d’aveux au profit d'entretiens fondés sur l’établissement 
+d’une relation42. 
+Deuxièmement, s'appuyant sur la pratique du CAT citée plus haut, les Principes soulignent que 
+« les autorités chargées des enquêtes doivent adopter et faire connaître les procédures 
+opérationnelles standard, les politiques et les codes de conduite visant à établir des normes à 
+l’intention des agent∙e∙s chargé∙e∙s de mener des entretiens43 ». En outre, ils précisent que les 
+normes applicables doivent être conformes aux normes de conduite internationalement 
+reconnues adoptées à l’intention du personnel chargé de l'application de la loi et les autres 
+agent∙e∙s chargé∙e∙s de mener ce type d’en tretiens ( Principe 5)44. 
+De manière cruciale, les Principes ne se contentent pas de réaffirmer l'obligation de contrôler 
+les règles et pratiques d'interrogatoire. Ils soulignent, en effet, l'importance d’un contrôle 
+régulier par les autorités « pour évaluer le niveau des ressource s financières investies dans les 
+processus d’entretien, y compris pour déterminer si les moyens technologiques à disposition 
+sont appropriés ». Ils mettent également l’accent sur la nécessité de transparence et de 
+redevabilité tout au long du processus d'e xamen, ce qui est crucial « pour maintenir la 
+confiance de la population dans l'intégrité de l’institution concernée et dans l'administration 
+de la justice de manière générale » (Principe 5)45. Pour ce faire, les Principes notent que « les 
+autorités doivent rendre publiques leurs règles et procédures internes en matière 
+d’entretien46 ». En outre, des garanties spécifiques doivent être mises en place pour assurer le 
+respect notamment du droit d'accès à l'information, des principes de confidentialité et de 
+respect de la vie privée, ainsi que de la législation et des réglementations rela tives à la 
+protection des données (Principe 5)47. 
+Enfin, les Principes soulignent qu’il est essentiel d’assurer un enregistrement efficace des 
+informations48. En se fondant sur les recommandations du CAT, ils soulignent que le recours à 
+des moyens technologiques audiovisuels pour enregistrer les entretiens devrait être mis en 
+place de manière progressive. L’enregistrement facilite le travail d'enquête en cas d ’ allégation 
+de mauvais traitements ou de torture pendant un entretien et, dans le même temps, protège 
+les intérêts des deux parties impliquées dans le processus d'entretien (principe 5)49.
+
+of the United Nations Convention Against Torture 
+
+ III. Les Principes Méndez contribuent au respect des 
+obligations en matière d'enseignement et de 
+formation de tous les personnels civils ou militaires 
+chargés de l'application de la loi, des agent·e·s de la 
+fonction publique et des autres personnes impliquées 
+dans l’interrogatoire en vertu de l'article 10(1) de 
+l'UNCAT. 
+L'article 10(1) de l'UNCAT exige des États parties qu'ils veillent à ce que tous les personnels 
+chargés de l'application de la loi, tant civils que militaires, le personnel médical, les agent ·e·s 
+de la fonction publique et les autres personnes qui peuvent intervenir dans la garde, 
+l'interrogatoire ou le traitement de tout individu arrêté, détenu ou emprisonné de quelque 
+façon que ce soit, aient connaissance des dispositions de la Convention. L’UN CAT souligne 
+également que toute infraction doit faire l'objet d'enquêtes et que les auteur ·rice·s de ces actes 
+doivent être poursuivis en justice. 
+On estime généralement que la liste des personnels mentionnées à l'article 10(1) de l'UNCAT 
+est illustrative et non exhaustive. Par exemple, le CAT a interprété cette disposition comme 
+étant applicable à tous les personnels impliqués dans l'usage de la fo rce50, toutes les personnes 
+responsables de personnes privées de liberté51, ainsi que tout ·e autre professionnel ·le 
+impliqué ·e dans la documentation et les enquêtes sur les allégations de torture et autres 
+formes de mauvais traitements52. 
+En ce qui concerne la formation du personnel, un message clé doit être transmis: la torture et 
+les autres formes de mauvais traitements sont absolument interdites en toutes circonstances. 
+En outre, le personnel doit comprendre que la torture constitue un crime grave qui ne peut en 
+aucun cas être justifié et qui sera sanctionné par des peines appropriées53. Il est important de 
+rappeler au personnel son obligation de signaler tout cas de torture et de mauvais traitement 
+- que ces actes soient commis par une personne de rang ou de fonction égale, supérieure ou 
+inférieure - à un·e juge ou à un ·e autre agent ·e de l’ État indépendant ·e chargé ·e de mener une 
+enquête appropriée et de traduire en justice l'auteur ·rice de cette infraction54. 
+En outre, tout personnel concerné doit recevoir des informations pertinentes, un 
+enseignement et une formation pratique sur la manière de prévenir la torture et les mauvais 
+traitements. Ainsi, en ce qui concerne le contenu de la formation, le CAT a toujour s 
+recommandé aux États parties de former systématiquement tout le personnel concerné à 
+identifier et documenter les signes/cas de torture et de mauvais traitements, ainsi qu'à 
+transmettre ces cas aux autorités d'enquête compétentes, conformément aux normes 
+internationales55. En outre, le CAT a souligné la nécessité de fournir une formation spécialisée 
+et de sensibiliser aux questions liées au genre56, aux droits des personnes lesbiennes, gays,
+
+of the United Nations Convention Against Torture 
+
+ bisexuelles, transgenres et intersexuées57, et au traitement d'autres groupes vulnérables 
+exposés au risque de torture et de mauvais traitements58. 
+Le CAT a également souligné que les États parties devraient élaborer et mettre en œuvre une 
+méthodologie spécifique pour évaluer régulièrement l'efficacité et l'impact de ces formations 
+et programmes dans la réduction des cas de torture, de violence et de mauvais traitements59. 
+À cette fin, le CAT a recommandé à plusieurs États parties d'envisager l'introduction de 
+programmes de formation sur les techniques d'enquête non coercitives60. 
+La formation du personnel chargé des entretiens conformément à l'article 10(1) de l'UNCAT 
+constitue un autre élément clé des Principes Méndez, et son Principe 4 est spécifiquement 
+consacré à cette question61. 
+Reconnaissant que la formation joue un rôle essentiel pour prévenir efficacement la torture et 
+les mauvais traitements, les Principes exigent qu’une formation spécifique - théorique et 
+pratique – soit dispensée à toutes les personnes qui mènent des entreti ens, y compris les 
+agent ·e·s chargé ·e·s de l’application de la loi , le personnel militaire et des services de 
+renseignement, ainsi que toute autre personne impliquée dans le travail d’enquête et autres 
+processus de collecte d'informations62. 
+Conformément aux recommandations du CAT, les Principes indiquent que cette formation 
+devrait mettre l'accent sur l'efficacité des techniques d’entretien et le respect des garanties 
+applicables et souligne que ces questions constituent des éléments clés per mettant aux États 
+parties de se conformer aux obligations de l'UNCAT, et de renforcer l'interdiction de la torture 
+et des mauvais traitements (Principe 4)63. 
+À cette fin, les Principes précisent les éléments clés d'une formation portant sur les entretiens 
+efficaces64. Ils soulignent la nécessité d’actualiser régulièrement les programmes de formation 
+afin de prendre en compte l'évolution des normes internationales des droits humains, les 
+études scientifiques et les techniques validées par la pratique65. Enfin, les Principes soulignent 
+l'importance des programmes de formation continue destinés aux personnes chargées de 
+mener des entretiens pour affiner les techniques d'entretien, corriger les erreurs et présenter 
+les recherches scientifiques les plus réc entes (Principe 4)66. 
+L'importance de la mise en place d'une formation portant sur les entretiens efficaces, telle 
+qu'énoncée dans les Principes, a déjà été intégrée dans la pratique la plus récente du CAT. En 
+août 2021, ans les Observations finales du CAT sur la Belgique en le CAT a, dans le cadre de 
+ses recommandations sur la formation de la police, demandé à l'État partie de « s’inspirer des 
+nouveaux principes relatifs à l’efficacité des entretiens dans le cadre des enquêtes et de la 
+collecte d’informations, dits « princi pes de Méndez67 ». Dans les Observations finales sur la 
+Suède en Novembre 2021, le CAT a salué les initiatives de l'État partie visant à réviser sa 
+législation ou adopter de nouvelles lois dans des domaines pertinents pour l'UNCAT, 
+notamment « les mesures prises pour appliquer, en tant que principes directeurs au niveau 
+national, les Principes relatifs à l’efficacité des entretiens dans le cadre des enquêtes et de la 
+collecte d’informations (Principes de Méndez, adoptés en juin 2021), qui visent à mettre fin
+
+of the United Nations Convention Against Torture 
+
+ aux pratiques reposant sur l’accusation, la coercition et l’obtention d’aveux au cours des 
+enquêtes68. » De la même manière, lors des examens ultérieurs des États parties, le CAT a 
+explicitement demandé aux autorités d'élaborer des modules de formation à l'intention du 
+personnel des forces de l'ordre, de la police et de l'armée, des juges et des procureurs sur les 
+techniques d'entretien et d'enquête non coercitives, conformément aux Principes. 69 
+IV. Les Principes de Méndez contribuent au respect des 
+obligations d’exclure toute preuve obtenue par la 
+torture en vertu de l'article 15 de l'UNCAT. 
+En vertu de l'article 15 de l'UNCAT, les aveux et autres éléments de preuve obtenus par la 
+torture sont irrecevables dans toute procédure, « si ce n'est contre la personne accusée de 
+torture pour établir qu'une déclaration a été faite ». 
+Cette disposition, qui est également connue sous le nom de « règle d'exclusion », est une 
+disposition importante qui complète l'interdiction absolue de la torture70. Les raisons qui sous -
+tendent la règle d'exclusion sont multiples. Premièrement, cette disposition vise à protéger le 
+droit à un procès équitable dans toute procédure, qu’elle soit pénale, civile, administrative, 
+judiciaire ou non judiciaire71. Deuxièmement, elle protège également les droits des victimes et 
+le principe de l'intégrité judiciaire72. Troisièmement, l'article 15 a un effet préventif très 
+important73, car l'irrecevabilité de ce type d’éléments de preuve supprime toute incitation pour 
+les agent ·e·s chargé ·e·s de l’application de la loi et les autres individus concernés à recourir à 
+la torture, ce qui contribue à la prévention de ces actes74. 
+Il est important de noter que la règle d'exclusion n'est pas limitée aux actes de torture. Comme 
+l'a indiqué le CAT dans son Observation générale n° 2, cette disposition, tout comme les 
+articles 10 et 11, doit également s'appliquer aux éléments de preuve o btenus à la suite d’autres 
+formes de mauvais traitements75. Dans le même ordre d'idées, le CAT a suggéré à plusieurs 
+reprises que les déclarations faites à la suite d'un traitement cruel, inhumain ou dégradant (et 
+donc pas seulement de torture) ne peuvent pas être utilisées comme éléments de preuve dans 
+une procé dure76. 
+En ce qui concerne leséléments de preuve entrant dans le champ d'application de l'article 15 
+de l'UNCAT, la pratique du CAT indique que cette disposition doit être interprétée de manière 
+large77. Cela peut inclure, par exemple, les éléments de preuve indirects (c'est -à-dire les 
+éléments de preuve secondaires obtenus à la suite de déclarations forcées)78 ; les éléments de 
+preuve de torture d’origine étrangère (c'est -à-dire les éléments de preuve obtenus suite aux 
+actes d’agent ·e·s d'un État étranger et sans la complicité des agent ·e·s du premier État 
+partie)79 ; ainsi que les éléments de preuves secrets ou confidentiels80. De même, le CAT a 
+interprété le libellé de l'article 15 comme incluant tout type de déclarations, indépendamment 
+de leur classification juridique (aveux ou tout autre type d'information), de leur forme (orale 
+ou écrite) ou de leur ·e auteur ·rice (accusé ·e, co-accusé ·e ou tiers)81.
+
+of the United Nations Convention Against Torture 
+
+ Les Principes Méndez fournissent des orientations concrètes aux États parties à l'UNCAT sur 
+la manière d'appliquer la règle d’exclusion en pratique. Ils soulignent l'exigence que les 
+déclarations faites sous la torture ou d'autres mauvais traitements ou s ous la contrainte soient 
+exclues de toute procédure judiciaire, conformément à l'article 15 de l'UNCAT (Principes 1 et 
+6)82. Par conséquent, les éléments de preuve obtenus sous la torture, ou tout autre type 
+d’information obtenue par la coercition, doivent être considérés comme irrecevables en toutes 
+circonstances, indépendamment du contexte et du but spécifiques dans lesquels ils ont été 
+recueillis83. 
+Les Principes précisent notamment que les autorités judiciaires jouent un rôle essentiel pour 
+assurer la mise en œuvre effective de cette règle d’exclusion, et ils appellent ainsi à supprimer 
+tout élément susceptible d’inciter les autorités chargées des en quêtes à obtenir des aveux par 
+tous les moyens ; les Principes encouragent, au contraire, le recours à des méthodes d’enquête 
+éthiques et scientifiquement éprouvées. En outre, les autorités judiciaires sont invitées à veiller 
+à ce que seuls les éléments de preuve obtenus légalement soient déclarés recevables dans 
+toute procédure et à être vigilantes à tout signe indiquant qu'une déclaration a pu être faite 
+sous la contrainte ou dans le cadre de mauvais traitements (Principe 6)84. 
+Les Principes prévoient également une obligation de signalement lorsque des 
+professionnel ·le·s de la justice pénale voient, entendent ou soupçonnent des actes 
+répréhensibles dans le cadre d’un entretien. De même, étant donné que la place excessive 
+accordée aux aveux dans les procédures judiciaires peut inciter indûment les personnes qui 
+mènent des entretiens à considérer l’obtention d’aveux comme le seul objecti f d’un entretien, 
+les Principes appellent à un changement d’optique, l'objectif ultime d’un entretien devant être 
+de recueillir des informations fiables et précises et non des aveux (Principe 5) 85. 
+Les Principes soulignent que l'exclusion des éléments de preuve obtenus sous la torture ou 
+d'autres mauvais traitements est un droit dont doit bénéficier toute personne auditionnée. Par 
+conséquent, cela constitue un recours efficace contre les actes répréh ensibles susceptibles 
+d’être commis par les personnes qui mènent l’entretien (principe 5)86. 
+Sur la base de ce qui précède, le CAT a déjà formulé d'importantes recommandations fondées 
+sur les Principes dans le cadre de ses examens des États parties, exhortant le pouvoir judiciaire 
+à déclarer irrecevables les aveux et déclarations obtenus par la torture.87 
+ 
+Conclusion 
+Les Principes Méndez proposent aux États parties à l'UNCAT un cadre de référence essentiel 
+pour mettre en œuvre leurs obligations en matière d'interdiction et de prévention de la torture 
+et des mauvais traitements. S'appuyant sur la pratique du CAT, ces Principes contribuent de 
+manière significative au renforcement des obligations internationales en vigueur et à leur mise 
+en œuvre effective en droit et en pra tique.
+
+of the United Nations Convention Against Torture 
+
+ Dans le même temps, les Principes constituent une avancée majeure qui va au -delà du 
+renforcement du cadre normatif actuel sur la prévention de la torture. 
+Il est important de noter que l'approche constructive et orientée vers la recherche de solutions, 
+adoptée par les Principes Méndez, contribue à éviter les pratiques coercitives qui visent 
+l’obtention d’aveux et encourage, au contraire, l’adoption de processus d'enquête et de justice 
+efficaces, équitables et fondés sur les droits humains. L’application de ces Prin cipes peut 
+réellement contribuer à garantir la protection des droits humains dans le cadre de 
+l'administration de la justice, et à assurer le développement de sociétés pacifiques, justes et 
+inclusives conformément aux Objectifs de développement durable des Nations Unies88.
+
+of the United Nations Convention Against Torture 
+
+ A propos de 
+L'Association pour la prévention de la torture (APT) est une organisation non gouvernementale 
+internationale indépendante de défense des droits humains basée à Genève, en Suisse. Elle a été 
+fondée en 1977, avec l'idée simple que l’ouverture des lieux de privation de liberté à un contrôle 
+indépendant p eut réduire les risques de torture et autres mauvais traitements, et ainsi mieux 
+protéger les droits humains et la dignité de tous. Aujourd'hui, l'APT mène des actions afin de 
+combattre et de réduire les risques de torture et autres mauvais traitements où qu'ils se 
+produisent. L'approche de l'APT en matière de prévention de la torture est basée sur une analyse 
+minutieuse des raisons et des lieux où les risques de torture sont élevés 
+ 
+
+5 ; Charte arabe des droits de l'homme, articles 4(2) et 8 ; Déclaration des droits de l'homme de l'ASEAN, article 14 
+; et CEDH, articl e 3. L'interdiction de la torture et des peines ou traitements cruels, inhumains et dégradants a 
+également été acceptée comme un principe fondamental du droit coutumier et une norme de jus cogens , c'est -à-
+dire une norme impérative à laquelle il n'est pas permis de déroger. Voir Comité des droits de l'homme, Observation 
+générale n° 24 sur les questions touchant les réserves formulées au moment de la ratification du Pacte ou des 
+Protocoles facultatifs y relatifs ou de l’adhésion à ces instruments, ou en rapport avec des déclarations formulées au 
+titre de l’arti cle 41 du Pacte , CCPR/C/21/Rev.1/Add.6, 4 novembre 1994, para. 8 ; CAT, Observation générale n° 2 : 
+Application de l'article 2 par les États parties , CAT/C/GC/2, 24 janvier 2008, para. 1 et 3 ; TPIY, Procureur c. Furundzija , 
+IT-95-17/1-T, Jugement de la Chambre de première instance, 10 décembre 1998, para. 153. 
+
+Gathering", Torture Journal , Vol. 31(3), pp. 117 -120. 
+
+dégradants, A/71/298, 5 août 2016. 
+4 Principes relatifs aux entretiens efficaces dans le cadre d’enquêtes et de collecte d'informations (ci -après 
+dénommés Principes de Méndez), mai 2021. Disponible sur . 
+
+termes de genre et géographiquement représentatif, comprenant des enquêteur·rice ·s de police, des universitaires, 
+des avocat ·e·s spécialisé ·e·s dans les droits humains et des représentant ·e·s d'organisations de la société civile du 
+monde entier. Pour plus d'informations sur les origines et le processus de rédaction des Principes, voir la page de 
+l'APT dédiée à cette question : -principles -effective -interviewing. 
+6 Principes de Méndez, avant -propos, p. iii. 
+
+Protocol : A Commentary. 
+
+des plaintes individuelles, les Observations générales, les Observations spécifiques à la situation d’un pays donné 
+et les commentaires formulés dans le cadre de la procédure d’examen des rapports des États. Lorsque cela est 
+strictement nécessaire, le présent document fait également référence à la pratique du Comité des droits de l'homme 
+et d'autres sources. 
+9 UNCAT, article 2(1). 
+10 UNCAT, article 16(1). Le CAT a déclaré que l'obligation de prévenir la torture et les autres mauvais traitements 
+en vertu des articles 2 et 16 est « indissociable, interdépendante et intimement liée » et que l'obligation de prévenir 
+les traitements cruels , inhumains ou dégradants se recoupe en pratique très largement et est conforme avec 
+l'obligation de prévenir la torture. Voir CAT, Observation générale n°2 : Mise en œuvre de l'article 2 par les États 
+parties , 24 janvier 2008, CAT/C/GC/2, para. 3. Cette interprétation est également reflétée dans la pratique du CAT, 
+puisque celui -ci fait généralement référence conjointement aux articles 2 et 16 dans ses recommandations aux États
+
+of the United Nations Convention Against Torture 
+
+dans le cadre des Observations finales. Voir Nowak M., Birk M. et Monina G. (2019) The United Nations Convention 
+Against Torture and Its Optional Protocol : A Co mmen tary, p. 78, 446 et 450. 
+11 CAT, Observation générale n°2 : Mise en œuvre de l'article 2 par les États parties , 24 janvier 2008, CAT/C/GC/2, 
+para. 17. 
+
+générale, cinquantième session, Supplément 44, A/50/44, 1995, paras. 62 -73, où le CAT a exprimé l'opinion selon 
+laquelle les mesures législatives et administratives adoptées par ce pays afin de se co nformer à l'UNCAT n'étaient 
+pas efficaces et a donc recommandé un ensemble complet de mesures pour prévenir la torture. En outre, le CAT a 
+recommandé aux États parties de s'assurer que les agent ·e·s de la fonction publique, les juges, les magistrat ·e·s, les 
+procureur ·e·s et les avocat ·e·s reçoivent une formation afin de pouvoir appliquer la Convention et la jurisprudence 
+du Comité. Voir par exemple : CAT, Observations finales : Rwanda (2012), CAT/C/RWA/CO/1, para. 8 ; Observations 
+finales : Mauritanie (2013), CAT/C/MRT/CO/1, para. 9 ; Observations finales : Pays -Bas (2013), CAT/C/NLD/CO/5 -6, 
+para. 9 ; Observations finales : Nouvelle -Zélande (2015), CAT/C/NZL/CO/6, para. 8. En ce qui concerne ce dernier 
+point, voir également ci -dessous, dans le présent document, la section sur l'article 11 de l'UNCAT. 
+
+dans Rapport du Comité contre la torture à l'Assemblée générale, soixante -neuvième session, Supplément 44, 
+A/69/44, 2014, Annexe XIII, para. 32. En ce qui concerne le droit d'accès à un ·e avocat ·e et à l'aide juridique, voir 
+par ex : Observations finales : Arménie (2012), CAT/C/ARM/CO/3, para. 11 ; Observations finales : Autriche (2010), 
+CAT/C/AUT/CO/4 -5, para. 11 ; Observations finales : Azerbaïdjan (2009), CAT/C/AZE/CO/3, para. 11 ; Observations 
+finales : Azerbaïdjan (2016), CAT/C/AZE/CO/4, para. 12 ; Observations finales : Bélarus (2011), CAT/C/BLR/CO/4, para. 
+6 ; Observations finales : Mexique (2012), CAT/C/MEX/CO/5 -6, para. 9 ; Observations finales : Mongolie (2011), 
+CAT/C/MNG/CO/1, para. 8 ; Observations finales : Monténégro (2014), CAT/C/MNE/CO/2, para. 7 ; Observations 
+finales : Maroc (2011), CAT/C/MAR/CO/4, para. 7 ; Observations finales : Paraguay (2011), CAT/C/PRY/CO/4 -6, para. 
+11 ; Observations finales : Philippines (2009), CAT/C/PHL/CO/2, para. 7 ; Observations finales : Pologne (2013), 
+CAT/C/POL/CO/5 -6, para. 8. En ce qui concerne le droit de notifier les proches de son arrestation, voir par ex : CAT, 
+Comptes rendus analytiques 51e réunion, Examen du rapport de la Chine (1990), CAT/C/SR.51, para. 34 ; Comptes 
+rendus analytiques 130th séance, Examen du rapport de la Libye (1992), CAT/C/SR.130, para. 13 ; Comptes rendus 
+analytiques 201st séance, Examen du rapport de la Libye (1994) , CAT/C/SR.201, par. 16 et 26 ; Comptes rendus 
+analytiques 201st séance Examen du rapport du Royaume -Uni (1995) , CAT/C/SR.234, para 79 ; Observations finales : 
+Arménie (2012), CAT/C/ARM/CO/3, para. 11 ; Observations finales : Azerbaïdjan (2016), CAT/C/AZE/CO/4, para 12 ; 
+Observations finales : Bélarus (2011), CAT/C/BLR/CO/4, para. 6 ; Observations finales : Maurice (2011), 
+CAT/C/MUS/CO/3, para.10. Concernant le droit d'accès à une assistance médicale, voir par ex : Comptes rendus 
+analytiques 201st réunion Examen du rapport de la Libye (1994) , CAT/C/SR.201, paras. 16 et 26 ; Observations finales 
+: Andorre (2013) CAT/C/AND/CO/1, para. 8 ; Observations finales : Arménie (2012), CAT/C/ARM/CO/3, para. 11 ; 
+Observations finales : Azerbaïdjan (2009), CAT/C/AZE/CO/3, para. 11 ; Observations finales : Azerbaïdjan (2016), 
+CAT/C/AZE/CO/4, para. 12 ; Observations finales : Portugal (2008), CAT/C/PRT/CO/4, para. 9 ; Observations finales : 
+Roumanie (2015), CAT/C/ROU/CO/2, para. 7. Concernant le droit d'être informé ·e des charges pesant à son 
+encontre et le droit de garder le silence, voir par ex : Observations finales : Bélarus (2011), CAT/C/BLR/CO/4, para. 6 
+; Observations finales : Madagascar , (2011), CAT/C/MDG/CO1, para. 9 ; Observations finales : Portugal (2008), 
+CAT/C/PRT/CO/4, para. 8. Pour de plus amples informations sur la pratique du CAT en matière de garanties, voir 
+Nowak M., Birk M. et Monina G. (2019) The United Nations Convention Against Torture and Its Optional Protocol : A 
+Commentary , pp. 83 -85. 
+15 Par exemple, en ce qui concerne la situation des demandeur ·euse·s d'asile et des migrant ·e·s, voir par exemple, 
+CAT, Observations finales : Irlande (2017), CAT/C/IRL/CO/2, para. 12(b). En ce qui concerne la situation des 
+personnes homosexuelles et transgenres, voir par exemple, Observations finales : Costa Rica (2008) 
+CAT/C/CRI/CO/2, para. 18. Le Comité contre la torture a également recommandé à plusieurs reprises aux États 
+parties de redoubler d'efforts pour prévenir et combattre la violence à l'égard des femmes, notamment le fémicide, 
+les meurtres et les dispar itions liés au genre, le viol et le harcèlement sexuel, la violence à l'égard des enfants et des 
+personnes en situation de handicap. Voir, par exemple, Observations finales : Mexique (2012), CAT/C/MEX/CO/5 -6, 
+para. 13 ; Observations finales : Monaco (2011), CAT/C/MCO/CO/4 -5, para. 11 ; Observations finales : Paraguay 
+(2011), CAT/C/PRY/CO/4 -6 para. 21 ; Observations finales : Pérou (2013), CAT/C/PER/CO/5 -6, paras. 14 et 20 ; 
+Observations finales : Sénégal (2013), CAT/C/SEN/CO/3, para.15.
