@@ -19,6 +19,7 @@ load_dotenv()
 
 # Module-level cache for the model (created once, reused)
 _model = None
+DEFAULT_GEMINI_MODEL = "gemini-2.5-flash"
 
 
 def get_model():
@@ -32,7 +33,8 @@ def get_model():
                 "Create a .env file with: GOOGLE_API_KEY=your_key_here"
             )
         genai.configure(api_key=api_key)
-        _model = genai.GenerativeModel("gemini-2.0-flash")
+        model_name = os.getenv("GEMINI_MODEL", DEFAULT_GEMINI_MODEL)
+        _model = genai.GenerativeModel(model_name)
     return _model
 
 

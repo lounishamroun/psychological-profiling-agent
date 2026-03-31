@@ -1,24 +1,35 @@
 {
   "case_id": "CASE-2024-001",
   "title": "The Belmont Jewelry Heist",
-  "summary": "On the night of March 15, 2024, Belmont Fine Jewelers on Rue de Rivoli was burglarized. Approximately 2.3 million euros in diamonds and watches were stolen. The alarm system was disabled at 2:47 AM using an insider code. Security footage shows a single masked figure entering through the back door. The lock showed no signs of forced entry. An anonymous tip led police to Marc Duval, a former employee fired 3 months prior.",
+  "summary": "On the night of March 15, 2024, Belmont Fine Jewelers on Rue de Rivoli was burglarized. Approximately 2.3 million euros in diamonds and watches were stolen. The alarm system was disabled at 2:47 AM using an insider code. Security footage shows a single masked figure entering through the back door. The lock showed no signs of forced entry. Three suspects have been brought in for questioning: Martin Lefèvre, a former employee fired 3 months prior; Antonin Morel, a mechanic and locksmith with a prior B&E conviction; and Claire Music, a night security guard who was seen near the store just before the break-in.",
+  "suspects": ["Martin Lefevre", "Antonin Morel", "Claire Music"],
   "key_facts": [
     "Break-in occurred between 2:30 AM and 3:15 AM on March 15, 2024",
     "Alarm was disabled using an insider code",
     "No forced entry — lock was picked or opened with a key",
-    "Marc Duval was terminated on December 12, 2023 for insubordination",
-    "Duval had access to alarm codes during his employment",
+    "Martin Lefevre was terminated on December 12, 2023 for insubordination",
+    "Lefevre had access to alarm codes during his employment",
     "A white van was seen near the store at 2:20 AM",
     "Stolen goods: 47 diamonds, 12 luxury watches, total value 2.3M euros",
-    "Duval's fingerprint was found on the back door handle",
-    "Duval claims he hasn't been near the store since December",
-    "Cell tower data places Duval's phone in the area between 1:00 AM and 4:00 AM"
+    "Lefevre's fingerprint was found on the back door handle",
+    "Lefevre claims he hasn't been near the store since December",
+    "Cell tower data places Lefevre's phone in the area between 1:00 AM and 4:00 AM",
+    "Antonin Morel owns a white van matching the description",
+    "Morel has a prior conviction for breaking and entering (2019)",
+    "Morel recently deposited 8,000 euros in cash",
+    "Morel's phone was turned off between 1:00 AM and 5:00 AM that night",
+    "Claire Music was seen on CCTV near the store at 2:35 AM during her patrol",
+    "Music works as a night guard at a building 200 meters from the store"
   ],
   "evidence": [
     "Security footage (masked figure, no face visible)",
     "Disabled alarm log showing insider code used",
-    "Fingerprint match on back door handle",
-    "Anonymous tip pointing to Duval",
-    "Cell tower data placing Duval's phone in the neighborhood"
+    "Fingerprint match on back door handle (Lefèvre)",
+    "Anonymous tip pointing to Lefèvre",
+    "Cell tower data placing Lefèvre's phone in the neighborhood",
+    "White van seen at 2:20 AM matching Morel's vehicle",
+    "Morel's bank records showing unexplained cash deposit",
+    "CCTV footage of Claire Music walking near the store at 2:35 AM",
+    "Music's building badge logs (to be verified)"
   ]
 }
