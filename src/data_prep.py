@@ -15,6 +15,7 @@ import json
 import re
 
 import PyPDF2
+from .utils import call_llm
 
 
 # ---------------------------------------------------------------------------
@@ -292,6 +293,78 @@ def transform_csv_to_jsonl():
 
 
 # ---------------------------------------------------------------------------
+# PDF .txt → structured .md via LLM
+# ---------------------------------------------------------------------------
+
+_MD_GENERATION_PROMPT = """
+Tu es un expert en techniques d'interrogatoire et d'entretien investigatif.
+Tu reçois un texte brut extrait d'un document académique ou professionnel sur les techniques d'entretien.
+
+Ta tâche : restructure ce contenu en un document Markdown bien organisé, en français, destiné à alimenter un système RAG pour aider un inspecteur lors d'un interrogatoire.
+
+Règles strictes :
+- Utilise des headers Markdown : # pour le titre principal, ## pour les sections, ### pour les sous-sections
+- Garde uniquement le contenu tactique et opérationnel utile (phases, techniques, signaux comportementaux, stratégies)
+- Supprime les références bibliographiques, introductions académiques, remerciements, tables des matières
+- Rédige en français clair et concis, même si le texte source est en anglais
+- N'ajoute PAS de commentaire introductif ou de conclusion — commence directement par le titre `#`
+- Les sections doivent être autonomes et compréhensibles sans contexte supplémentaire
+- Conserve l'intégralité du contenu tactique et opérationnel — ne résume pas, ne tronque pas
+
+Texte source :
+{txt_content}
+
+Markdown structuré :
+"""
+
+
+def generate_md_from_txt(force: bool = False) -> None:
+    """Generate structured .md files from .txt files in processed/ using the LLM.
+
+    For each .txt file, if the corresponding .md does not exist (or force=True),
+    sends the text to Gemini and saves the structured Markdown output.
+
+    Args:
+        force: If True, regenerate even if .md already exists.
+    """
+    os.makedirs(PROCESSED_DIR, exist_ok=True)
+
+    txt_files = sorted([
+        f for f in os.listdir(PROCESSED_DIR)
+        if f.endswith(".txt")
+    ])
+
+    if not txt_files:
+        print("[data_prep] No .txt files found in processed/, run extract-pdfs first.")
+        return
+
+    for txt_filename in txt_files:
+        md_filename = txt_filename.replace(".txt", ".md")
+        txt_path = os.path.join(PROCESSED_DIR, txt_filename)
+        md_path = os.path.join(PROCESSED_DIR, md_filename)
+
+        if os.path.exists(md_path) and not force:
+            print(f"[SKIP] {md_filename} already exists (use --force to regenerate)")
+            continue
+
+        with open(txt_path, "r", encoding="utf-8") as f:
+            txt_content = f.read()
+
+        print(f"[LLM]  Generating {md_filename} ({len(txt_content):,} chars) ...")
+        prompt = _MD_GENERATION_PROMPT.format(txt_content=txt_content)
+        md_content = call_llm(prompt)
+
+        # Strip potential markdown code fences if the LLM wraps the output
+        md_content = re.sub(r"^```(?:markdown)?\n?", "", md_content.strip())
+        md_content = re.sub(r"\n?```$", "", md_content.strip())
+
+        with open(md_path, "w", encoding="utf-8") as f:
+            f.write(md_content.strip() + "\n")
+
+        print(f"[OK]   {md_filename} — {len(md_content):,} chars")
+
+
+# ---------------------------------------------------------------------------
 # JSON loader (cases, suspects)
 # ---------------------------------------------------------------------------
 
@@ -308,18 +381,27 @@ def load_json(path: str) -> dict:
 if __name__ == "__main__":
     import sys
 
-    usage = "Usage: python -m src.data_prep [extract-pdfs | transform-jsonl | all]"
+    usage = (
+        "Usage: python -m src.data_prep "
+        "[extract-pdfs | transform-jsonl | generate-md [--force] | all [--force]]"
+    )
 
-    cmd = sys.argv[1] if len(sys.argv) > 1 else "all"
+    args = sys.argv[1:]
+    cmd = args[0] if args else "all"
+    force = "--force" in args
 
     if cmd == "extract-pdfs":
         extract_and_clean_pdfs()
     elif cmd == "transform-jsonl":
         transform_csv_to_jsonl()
+    elif cmd == "generate-md":
+        generate_md_from_txt(force=force)
     elif cmd == "all":
         extract_and_clean_pdfs()
         print()
         transform_csv_to_jsonl()
+        print()
+        generate_md_from_txt(force=force)
     else:
         print(usage)
         sys.exit(1)

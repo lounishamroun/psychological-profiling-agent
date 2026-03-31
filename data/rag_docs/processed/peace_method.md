@@ -1,113 +1,78 @@
-# La méthode PEACE : guide pratique pour l'entretien de suspect
+# Planification d'un Interrogatoire de Suspect
 
-## Considérations préalables
+## Détails Personnels
 
-Avant tout entretien, l'enquêteur doit vérifier si le suspect souhaite un avocat et s'il nécessite un adulte approprié (appropriate adult). Ces personnes doivent être contactées dès que possible via le poste de garde (custody sergeant). Le temps restant sur l'horloge de garde est un facteur déterminant.
+Assurez-vous de disposer de tous les détails du suspect, notamment :
+*   Nom
+*   Date de Naissance (DDN)
+*   Numéro d'Identification PNC (Police National Computer)
+*   Numéro de Détention
+*   Coordonnées de l'avocat ou de l'adulte approprié
 
-## Planning and Preparation (Planification et Préparation)
+## Divulgation (Disclosure)
 
-C'est la phase initiale de la méthode PEACE. Elle consiste à préparer les questions mais aussi les éléments pratiques de l'entretien : officiers présents, équipement d'enregistrement audio.
+*Applicable uniquement si la personne détenue a un avocat.*
+*Peut être écrite ou verbale.*
 
-### Informations personnelles du suspect
+La divulgation a lieu avant l'interrogatoire et constitue l'occasion de présenter l'affaire à l'avocat afin qu'il puisse conseiller le suspect en conséquence. Vous devez exposer les détails fondamentaux de l'incident, mais vous pouvez choisir de retenir ou de divulguer certains éléments de preuve si vous estimez que cela serait bénéfique pour votre interrogatoire.
 
-L'enquêteur doit rassembler toutes les informations sur le suspect avant l'entretien :
+## Préparation des Questions d'Interrogatoire
 
-- Nom complet
-- Date de naissance (DOB)
-- Identifiant PNC (Police National Computer)
-- Numéro de garde à vue (Custody Number)
-- Coordonnées de l'avocat et/ou de l'adulte approprié
+### Déclarations Significatives
 
-### Disclosure (Divulgation)
+Si le prévenu a fait une déclaration significative lors de son arrestation, celle-ci doit toujours lui être présentée avant les questions d'interrogatoire.
 
-La divulgation s'applique uniquement lorsque le détenu dispose d'un avocat. Elle peut être écrite ou verbale.
+### Éléments à Prouver
 
-La divulgation intervient avant l'entretien. C'est l'occasion de présenter les grandes lignes du dossier à l'avocat afin qu'il puisse conseiller le suspect en conséquence.
+Utilisez un système tel que le Police National Legal Database (PNLD) pour obtenir les éléments à prouver pour l'infraction. Il est essentiel de couvrir tous ces détails lors de l'interrogatoire afin que, lors de la décision de mise en accusation, vous puissiez exposer ces points à un sergent ou au Crown Prosecution Service.
 
-L'enquêteur doit exposer les détails de base de l'incident. Cependant, il peut stratégiquement choisir de retenir ou de divulguer certains éléments de preuve s'il estime que cela sera bénéfique pour le déroulement de l'entretien.
+### Défenses Possibles
 
-### Significant Statements (Déclarations significatives)
+Lors de la recherche de vos éléments à prouver, recherchez également les défenses acceptées afin de pouvoir couvrir la possibilité que celles-ci soient évoquées par le suspect dans vos questions d'interrogatoire.
 
-Si le suspect a fait une déclaration significative au moment de son arrestation, celle-ci doit toujours lui être soumise avant les questions d'entretien.
+### Pièces à Conviction (Exhibits)
 
-### Points to Prove (Points à prouver)
+Assurez-vous que tous les éléments sur lesquels vous prévoyez de poser des questions sont répertoriés comme pièces à conviction. Lorsque vous montrez les pièces à conviction au prévenu pendant l'interrogatoire, faites-y référence verbalement. Par exemple : "Je montre maintenant à Monsieur Smith la pièce RS/01 - Une capture d'écran de SMS envoyés à Madame Smith le 2 février 2012."
 
-L'enquêteur doit utiliser un système tel que le Police National Legal Database (PNLD) pour obtenir les points à prouver relatifs à l'infraction. Il est essentiel de couvrir l'ensemble de ces éléments pendant l'entretien. Lors de la demande de décision de mise en accusation, l'enquêteur doit pouvoir présenter ces points à un sergent ou au Crown Prosecution Service.
+### Vidéosurveillance (CCTV)
 
-### Defences (Moyens de défense)
+Si vous utilisez des enregistrements CCTV lors d'un interrogatoire, il est conseillé de connaître les horaires exacts des séquences que vous souhaitez montrer au prévenu et de vous assurer que votre technologie fonctionne ! De même qu'avec les pièces à conviction, expliquez sur l'enregistrement la pièce CCTV que vous montrez maintenant au suspect.
 
-Lors de la recherche des points à prouver, l'enquêteur doit également examiner les moyens de défense acceptés. Cela permet de préparer des questions couvrant la possibilité que le suspect invoque l'une de ces défenses durant l'entretien.
+## Gestion de la Détention
 
-### Exhibits (Pièces à conviction)
+### Coordination avec la Suite de Détention
 
-Tout élément que l'enquêteur prévoit d'évoquer doit être mis sous scellé (exhibited). Lors de la présentation des pièces au suspect pendant l'entretien, l'enquêteur doit y faire verbalement référence. Par exemple : « Je montre maintenant à M. Smith la pièce RS/01 – une capture d'écran de messages envoyés à Mme Smith le 2 février 2012. »
+Assurez-vous de toujours rester en contact avec la suite de détention et de leur donner un préavis suffisant pour organiser la présence d'un avocat ou d'un adulte approprié.
+Considérez en premier lieu si le suspect souhaite un avocat ou nécessite un adulte approprié. Organisez cela dès que possible ! Le sergent de la suite de détention peut alors contacter ces personnes et les tenir informées du moment où vous êtes prêt à interroger. Le temps restant sur l'horloge de détention est crucial !
 
-### CCTV (Vidéosurveillance)
+### Enregistrements Audio/Vidéo (Disques)
 
-Si des images de vidéosurveillance sont utilisées pendant l'entretien, l'enquêteur doit connaître les horaires exacts des séquences à montrer au suspect et vérifier que l'équipement technique fonctionne. Comme pour les pièces à conviction, il faut décrire verbalement sur l'enregistrement la séquence CCTV présentée au suspect.
+Les disques doivent être déballés devant le prévenu. Vous devriez avoir trois disques au total : une copie maître, une copie de travail et une de rechange. La copie maître doit être scellée devant le suspect. Cela garantit que, si l'affaire est portée devant les tribunaux, ils peuvent constater qu'elle n'a pas été altérée. Vous répertorierez ces disques comme vos propres pièces à conviction et l'enregistrerez dans votre carnet de poche ou votre déclaration.
 
-### Gestion des disques d'enregistrement
+## Approche PEACE
 
-Les disques doivent être déballés devant le suspect. Trois disques sont nécessaires : un original (master), un de travail (working) et un de rechange (spare). La copie originale doit être scellée devant le suspect pour garantir qu'elle n'a pas été altérée, en cas de passage devant le tribunal. L'enquêteur enregistre ces disques comme pièce à conviction et consigne cette information dans son carnet de notes ou sa déclaration.
+Les forces de police utilisent le modèle PEACE comme ligne directrice lors de la conduite d'interrogatoires investigatifs :
 
-### Coordination avec le poste de garde
+### P - Planification et Préparation
 
-L'enquêteur doit rester en contact avec le poste de garde (custody suite) et donner un préavis suffisant pour organiser la présence de l'avocat ou de l'adulte approprié.
+C'est l'étape initiale pour préparer vos questions, mais aussi les éléments pratiques de l'interrogatoire tels que les officiers présents et l'équipement d'enregistrement.
 
-## Engage and Explain (Établir le contact et Expliquer)
+### E - Engagement et Explication
 
-Lors du contact avec le suspect, l'enquêteur doit :
+Pendant le contact avec le suspect, vous devez établir un rapport, vous assurer qu'il comprend l'avertissement et lui expliquer le processus de l'interrogatoire. La recherche a suggéré qu'il existe une corrélation positive entre des relations interpersonnelles constructives entre le suspect et l'officier de police et un niveau plus élevé d'informations fournies.
 
-- Établir un rapport avec le suspect
-- S'assurer que le suspect comprend la mise en garde (caution)
-- Expliquer le déroulement et le processus de l'entretien
+### A - Récit, Clarification et Contestation
 
-La recherche a démontré qu'il existe une corrélation positive entre la qualité de la relation interpersonnelle constructive entre le suspect et l'officier de police et le niveau d'information obtenu. Un rapport professionnel favorise la coopération du suspect.
+C'est la partie principale de l'interrogatoire pour obtenir l'explication du suspect sur ce qui s'est passé en relation avec l'infraction sur laquelle il est interrogé. Cela devrait commencer par une question ouverte. Suite au rappel libre du suspect, c'est votre chance d'obtenir un plus grand niveau de détail et de chercher des explications pour tout ce qui n'a pas été clair. Bien que vous deviez toujours essayer d'utiliser des questions ouvertes, vous devrez peut-être être plus spécifique et utiliser des questions fermées pour obtenir ce niveau de détail.
 
-## Account, Clarification and Challenge (Récit, Clarification et Confrontation)
+### C - Clôture
 
-C'est la partie principale de l'entretien. L'objectif est d'obtenir l'explication du suspect concernant les faits reprochés.
+Avant la conclusion d'un interrogatoire, vous devez récapituler ce que le suspect a dit et vous assurer qu'il ne souhaite rien modifier, clarifier ou ajouter.
 
-### Questioning Techniques (Techniques de questionnement)
+### E - Évaluation
 
-#### Obtenir le récit libre
+Cette phase est utilisée pour évaluer ce qui a été dit conformément aux éléments à prouver et aux éventuelles défenses qu'ils ont données, mais aussi pour évaluer si vous avez atteint vos objectifs pour l'interrogatoire.
 
-L'entretien doit commencer par une question ouverte permettant au suspect de donner son récit libre (free recall) des événements.
+## Après l'Interrogatoire
 
-#### Clarification et approfondissement
-
-Après le récit libre du suspect, l'enquêteur doit obtenir un plus grand niveau de détail et demander des explications sur tout ce qui n'est pas cohérent. L'enquêteur doit privilégier les questions ouvertes. Cependant, il peut être nécessaire d'utiliser des questions fermées pour obtenir un niveau de précision plus fin sur des points spécifiques.
-
-#### Confrontation avec les preuves
-
-Si des incohérences apparaissent entre le récit du suspect et les preuves disponibles, l'enquêteur peut confronter le suspect à ces éléments de manière structurée et professionnelle.
-
-## Closure (Clôture)
-
-Avant la conclusion de l'entretien, l'enquêteur doit :
-
-- Récapituler ce que le suspect a déclaré
-- Demander au suspect s'il souhaite modifier, clarifier ou ajouter quoi que ce soit à ses déclarations
-- S'assurer que tous les points à prouver ont été couverts
-- Permettre à l'avocat ou à l'adulte approprié de poser des questions
-
-## Evaluation (Évaluation)
-
-Cette phase intervient après l'entretien. Elle sert à :
-
-- Évaluer ce qui a été dit en rapport avec les points à prouver
-- Analyser les éventuels moyens de défense invoqués par le suspect
-- Déterminer si les objectifs fixés pour l'entretien ont été atteints
-- Identifier les pistes d'investigation complémentaires
-
-## Post-entretien
-
-L'enquêteur doit rédiger les notes de l'entretien dans le rapport de crime. Il doit inclure :
-
-- Les heures de début et de fin
-- Le numéro de pièce à conviction (exhibit number)
-- Le résumé du récit principal donné par le suspect
-- Les questions posées, en particulier lorsque le suspect a refusé de répondre (no comment interview)
-- Les coordonnées de l'avocat et de tout adulte approprié
-
-Si l'affaire passe devant le tribunal, les notes de l'entretien seront incluses dans le dossier.
+Rédigez les notes de votre interrogatoire sur le rapport d'incident. Assurez-vous d'inclure les heures de début et de fin, votre numéro de pièce à conviction et le récit principal donné. Notez les questions que vous avez posées, surtout lorsque le suspect a répondu "pas de commentaire". Enregistrez également les détails de l'avocat et de tout adulte approprié. Si l'affaire est portée devant les tribunaux, les notes d'interrogatoire seront incluses dans le dossier.
