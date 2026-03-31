@@ -1,11 +1,5 @@
 """
 Streamlit app for the interrogation simulator.
-
-Person C scope:
-- present the interrogation transcript,
-- show profiler metrics and charts,
-- display retrieved context and final report,
-- integrate with LangGraph/RAG when those modules are available.
 """
 
 from __future__ import annotations
@@ -18,7 +12,7 @@ from typing import Any, Callable
 import streamlit as st
 from langfuse import observe, Langfuse
 
-from src.agents import final_report_agent, inspector_agent, profiler_agent, suspect_agent
+from src.agents import final_report_agent, inspector_agent, profiler_agent, suspect_agent, judge_agent
 from src.utils import load_json
 
 BASE_DIR = Path(__file__).resolve().parent
@@ -563,6 +557,11 @@ def main() -> None:
             key="use_rag",
             help="Toggle retrieval-augmented generation on/off to compare results.",
         )
+        comparison = st.toggle(
+            "Comparison mode (temp=0)",
+            key="comparison_mode",
+            help="Forces all agents to temperature=0 for deterministic, reproducible A/B comparison.",
+        )
         run_clicked = st.button("Run interrogation", type="primary", use_container_width=True)
         reset_clicked = st.button("Reset", use_container_width=True)
         st.caption("The selected suspect and RAG mode are applied on the next run or reset.")
@@ -575,6 +574,10 @@ def main() -> None:
         st.session_state.backend_name = "Not run yet"
 
     if run_clicked:
+        # Set comparison mode before running so call_llm sees it
+        from src import utils as _utils_module
+        _utils_module.comparison_mode = comparison
+
         with st.spinner("Running interrogation..."):
             try:
                 state, backend_name = run_interrogation(
@@ -587,6 +590,16 @@ def main() -> None:
             else:
                 st.session_state.simulation_state = state
                 st.session_state.backend_name = backend_name
+
+                # Run the Judge on the completed simulation
+                try:
+                    judge_result = judge_agent(state)
+                    st.session_state.judge_output = judge_result
+                    # Store per-mode for RAG comparison
+                    mode_key = "judge_rag_on" if use_rag else "judge_rag_off"
+                    st.session_state[mode_key] = judge_result
+                except Exception:
+                    st.session_state.judge_output = None
             finally:
                 # Flush Langfuse so all traces are sent before the page rerenders
                 try:
@@ -606,6 +619,90 @@ def main() -> None:
         if rag_was_used(state, backend_name):
             st.divider()
             render_rag_support(state)
+
+    # --- Judge evaluation section ---
+    judge_output = st.session_state.get("judge_output")
+    if judge_output:
+        st.divider()
+        st.subheader("LLM-as-Judge Evaluation")
+        st.caption("Rubric-based scoring — every number is traced to countable facts from the transcript.")
+
+        j1, j2, j3, j4 = st.columns(4)
+        j1.metric("Inspector Quality", f"{float(judge_output.get('inspector_quality', 0)):.0%}")
+        j2.metric("Suspect Realism", f"{float(judge_output.get('suspect_realism', 0)):.0%}")
+        j3.metric("Profiler Accuracy", f"{float(judge_output.get('profiler_accuracy', 0)):.0%}")
+        j4.metric("Overall Effectiveness", f"{float(judge_output.get('overall_effectiveness', 0)):.0%}")
+
+        # Detailed breakdowns
+        with st.expander("Inspector details", expanded=False):
+            d = judge_output.get("inspector_details", {})
+            st.markdown(
+                f"- **Questions asked:** {d.get('total_questions', '?')}\n"
+                f"- **Unique topics covered:** {d.get('unique_topics', '?')}\n"
+                f"- **Repeated questions:** {d.get('repeated_questions', '?')}\n"
+                f"- **Times evidence was cited:** {d.get('evidence_used', '?')}\n"
+                f"- **Follow-ups on evasion:** {d.get('followups_on_evasion', '?')}"
+            )
+
+        with st.expander("Suspect details", expanded=False):
+            d = judge_output.get("suspect_details", {})
+            st.markdown(
+                f"- **Total answers:** {d.get('total_answers', '?')}\n"
+                f"- **In character:** {d.get('in_character', '?')}\n"
+                f"- **Strategy followed:** {d.get('strategy_followed', '?')}\n"
+                f"- **Contradicts profile:** {d.get('contradicts_profile', '?')}\n"
+                f"- **Shows vulnerabilities:** {d.get('shows_vulnerabilities', '?')}"
+            )
+
+        with st.expander("Profiler details", expanded=False):
+            d = judge_output.get("profiler_details", {})
+            st.markdown(
+                f"- **Total turns scored:** {d.get('total_turns', '?')}\n"
+                f"- **Accurate assessments:** {d.get('accurate_assessments', '?')}\n"
+                f"- **Final suspicion aligned with truth:** {d.get('final_suspicion_alignment', '?')}"
+            )
+
+        with st.expander("Effectiveness details", expanded=False):
+            d = judge_output.get("effectiveness_details", {})
+            st.markdown(
+                f"- **Correct verdict:** {d.get('correct_verdict', '?')}\n"
+                f"- **Hidden truth elements surfaced:** {d.get('truth_elements_surfaced', '?')}\n"
+                f"- **Progressive pressure applied:** {d.get('progressive_pressure', '?')}"
+            )
+
+        with st.expander("Judge reasoning", expanded=True):
+            st.write(judge_output.get("reasoning", "No reasoning provided."))
+
+    # --- RAG ON vs OFF comparison ---
+    rag_on = st.session_state.get("judge_rag_on")
+    rag_off = st.session_state.get("judge_rag_off")
+    if rag_on and rag_off:
+        st.divider()
+        st.subheader("RAG ON vs RAG OFF Comparison")
+        st.caption("Side-by-side Judge scores from both runs. Run once with RAG ON, once with RAG OFF.")
+
+        criteria = [
+            ("Inspector Quality", "inspector_quality"),
+            ("Suspect Realism", "suspect_realism"),
+            ("Profiler Accuracy", "profiler_accuracy"),
+            ("Overall Effectiveness", "overall_effectiveness"),
+        ]
+        cols = st.columns(4)
+        for col, (label, key) in zip(cols, criteria):
+            on_val = float(rag_on.get(key, 0))
+            off_val = float(rag_off.get(key, 0))
+            delta = on_val - off_val
+            col.metric(
+                label,
+                f"{on_val:.0%} vs {off_val:.0%}",
+                delta=f"{delta:+.0%}",
+                help=f"RAG ON: {on_val:.0%} | RAG OFF: {off_val:.0%}",
+            )
+
+        with st.expander("RAG ON reasoning"):
+            st.write(rag_on.get("reasoning", ""))
+        with st.expander("RAG OFF reasoning"):
+            st.write(rag_off.get("reasoning", ""))
 
 
 if __name__ == "__main__":
