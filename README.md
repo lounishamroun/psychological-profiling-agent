@@ -12,21 +12,6 @@ ARIA simulates realistic police interrogations using 3 LLM-powered agents orches
 
 The system runs in a loop: `Retrieve → Inspector → Suspect → Profiler → [loop or report]`.
 
-## Architecture
-
-```
-                    ┌──────────────┐
-                    │   ChromaDB   │
-                    │ (embeddings) │
-                    └──┬───────┬───┘
-                  tactics    examples
-                  (k=3)      (k=3)
-                    ▼           ▼
-START → Retrieve → Inspector → Suspect → Profiler → [continue?] → Final Report → END
-                                                         │
-                                                         └── loop back to Retrieve
-```
-
 ## Tech Stack
 
 | Component | Technology |
@@ -63,7 +48,7 @@ app.py              # Streamlit interface
 
 **Sources:**
 - 6 reference documents on interrogation techniques (PEACE, Reid, SUE, UNODC, Mendez, Investigative Interviewing)
-- 1 behavioral dataset of 1600 Q/R pairs enriched with PEACE phases and SUE tactics
+- 1 behavioral dataset of 1600 Q/R pairs 
 
 **Data preparation:**
 ```
